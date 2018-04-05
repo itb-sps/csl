@@ -1,11 +1,13 @@
+---
+title: SPs ITB Citation Style Language (CSL)
+---
 # Documentation for SPs ITB Citation Style Language (CSL)
 
 Sekolah Pascasarjana (SPs) ITB provides a Citation Style Language (CSL) which can be used in supported reference manager software, to format references and bibliography in conformance with [SPs ITB guidelines for master's thesis and doctoral dissertation](http://www.sps.itb.ac.id/in/pedoman-tesis-dan-disertasi/).
 
 SPS ITB provides tutorial to use the CSL with the following software:
 
-* Microsoft Word 2010/2013/2016 and Mendeley, for Windows
-* Microsoft Word 2010/2013/2016 and Mendeley, for macOS
+* Microsoft Word 2010/2013/2016 and Mendeley, for Windows and macOS
 
 As CSL is an open and widely supported format, it is also usable in other software, e.g. LibreOffice, Zotero, and Linux-based operating systems. Please refer to your reference manager's documentation on how to use this CSL in your preferred software, or you can [contribute to this documentation by submitting a GitHub pull request](https://github.com/itb-sps/csl).
 
@@ -35,29 +37,37 @@ As CSL is an open and widely supported format, it is also usable in other softwa
 
    ![Mendeley MS Word Plugin](mendeley-ms-word-plugin-macos.jpg)
 
-7. TODO - instructions for final version: (DO NOT USE THIS ONE)
+7. TODO - instructions for final version: (**DO NOT USE THIS ONE, SKIP TO NEXT STEP**)
 
    a. In Mendeley, click **View > Citation Style > More Styles...**
 
       ![Mendeley CSL](mendeley-csl-01.jpg)
 
    b. Click **Get More Styles** tab.
+
    c. Search for "institut teknologi bandung"
+
    d. Click **Install**
+
    e. Go to **Installed** tab.
+
    f. Select **Institut Teknologi Bandung - SPs** then click **Use this Style**.
+
    g. In **Citation and Bibliography Language**, select **Indonesian** or **English** based on the language of your thesis/dissertation.
 
 8. TODO - instructions for development version: 
 
    a. Download the CSL file: [institut-teknologi-bandung-sps.csl](https://raw.githubusercontent.com/ceefour/styles/itb-sps/institut-teknologi-bandung-sps.csl).
+
    b. In Mendeley, click **View > Citation Style > More Styles...**
 
       ![Mendeley CSL](mendeley-csl-01.jpg)
 
-   b. Drag and drop `institut-teknologi-bandung-sps.csl` from File Explorer to Mendeley Citation Styles window.
-   c. Select **Institut Teknologi Bandung - SPs** then click **Use this Style**.
-   d. In **Citation and Bibliography Language**, select **Indonesian** or **English** based on the language of your thesis/dissertation.
+   c. Drag and drop `institut-teknologi-bandung-sps.csl` from File Explorer to Mendeley Citation Styles window.
+
+   d. Select **Institut Teknologi Bandung - SPs** then click **Use this Style**.
+
+   e. In **Citation and Bibliography Language**, select **Indonesian** or **English** based on the language of your thesis/dissertation.
 
 9. Congratulations! Now you are ready to collect documents, insert citations, and insert a bibliography in your documents.
 
@@ -66,7 +76,9 @@ As CSL is an open and widely supported format, it is also usable in other softwa
 Before you can insert a citation, you need to collect documents first in Mendeley. There are many ways to collect documents, for example:
 
 1. By adding a paper's PDF file
+
 2. Using the Web Importer plugin (recommended)
+
 3. Adding manually (as a last resort)
 
 #### Collect Documents from PDF files
