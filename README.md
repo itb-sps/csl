@@ -1,4 +1,4 @@
-# Documentation for SPs ITB Citation Style Language (CSL)
+# Tutorial for SPs ITB Citation Style Language (CSL)
 
 Sekolah Pascasarjana (SPs) ITB provides a Citation Style Language (CSL) which can be used in supported reference manager software, to format references and bibliography in conformance with [SPs ITB guidelines for master's thesis and doctoral dissertation](http://www.sps.itb.ac.id/in/pedoman-tesis-dan-disertasi/).
 
@@ -144,6 +144,12 @@ However, you will still need to ensure correct formatting of:
 
 * font and font size
 * paragraph justification
+
+## More about Mendeley
+
+Mendeley has **a lot** of useful features. This tutorial only covers the basic usage.
+
+Check out [Mendeley Videos and Tutorials](https://www.mendeley.com/guides/videos) for more information.
 
 ## Feedback
 
