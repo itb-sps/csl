@@ -140,7 +140,7 @@ In the place where you want to put the bibliography, click **References > Insert
 
 The bibliography will be inserted using syntax according to SPs ITB guidelines.
 
-However, you will still need to ensure correct formatting of:
+However, you will still need to ensure correct formatting according to [Pedoman Tesis dan Disertasi SPs ITB](http://www.sps.itb.ac.id/in/pedoman-tesis-dan-disertasi/), because the following are not controlled by CSL:
 
 * font and font size
 * paragraph justification
