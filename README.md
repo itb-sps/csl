@@ -153,4 +153,4 @@ Check out [Mendeley Videos and Tutorials](https://www.mendeley.com/guides/videos
 
 ## Feedback
 
-If you have feedback and suggestions about this CSL and/or its documentation, please [post an issue here](https://github.com/itb-sps/csl/issues).
+If you have feedback and suggestions about this CSL and/or its documentation, please [post an issue here](https://github.com/itb-sps/csl/issues) or email [hendy@hendyirawan.com](mailto:hendy@hendyirawan.com).
