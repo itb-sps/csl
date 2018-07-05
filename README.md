@@ -4,9 +4,9 @@ Sekolah Pascasarjana (SPs) ITB provides a Citation Style Language (CSL) which ca
 
 SPS ITB provides tutorial to use the CSL with the following software:
 
-* Microsoft Word 2010/2013/2016 and Mendeley, for Windows and macOS
+* [Microsoft Word 2010/2013/2016](https://products.office.com/en/word) and [Zotero](https://www.zotero.org/), for Windows and macOS
 
-As CSL is an open and widely supported format, it is also usable in other software, e.g. LibreOffice, Zotero, and Linux-based operating systems. Please refer to your reference manager's documentation on how to use this CSL in your preferred software, or you can [contribute to this documentation by submitting a GitHub pull request](https://github.com/itb-sps/csl).
+As CSL is an open and widely supported format, it is also usable in other software, e.g. [LibreOffice](http://libreoffice.org), [Mendeley](https://mendeley.com/), and Linux-based operating systems like [Ubuntu](https://ubuntu.com/) and [Linux Mint](https://linuxmint.com/). Please refer to your reference manager's documentation on how to use this CSL in your preferred software, or you can [contribute to this documentation by submitting a GitHub pull request](https://github.com/itb-sps/csl).
 
 ## Using This CSL with Microsoft Word 2010/2013/2016 and Mendeley
 
@@ -14,63 +14,38 @@ As CSL is an open and widely supported format, it is also usable in other softwa
 
 1. Make sure you have installed **Microsoft Office 2010/2013/2016**.
 
-2. Download and install **Mendeley** from https://mendeley.com/
+2. Download and install **Zotero** from https://www.zotero.org/
 
-3. Run Mendeley.
+3. Run Zotero.
 
-4. Sign-up or login to your Mendeley account so you can save and sync all your references easily.
+4. Sign-up or login to your Zotero account so you can save and sync all your references easily.
 
-5. Click **Tools > Install MS Word Plugin**. Follow the instructions.
+6. Ensure you can see Zotero in Microsoft Word's Zotero ribbon tab.
 
-   ![Mendeley MS Word Plugin](mendeley-ms-word-plugin.jpg)
+   ![Zotero MS Word Plugin](zotero-ms-word-plugin-windows.jpg)
 
-6. Ensure you can see Mendeley in Microsoft Word.
+7. Install **Institut Teknologi Bandung - Sekolah Pascasarjana** style, as follows:
 
-   For Windows in **References tab**:
+   a. In Zotero, click **Edit > Preferences...**
 
-   ![Mendeley MS Word Plugin](mendeley-ms-word-plugin-windows.jpg)
+   b. Click **Get additional styles...**.
 
-   For macOS in **Add-ins tab**:
+      ![Zotero](zotero-styles.jpg)
 
-   ![Mendeley MS Word Plugin](mendeley-ms-word-plugin-macos.jpg)
+   c. Search for "**institut teknologi bandung**"
 
-7. TODO - instructions for final version: (**DO NOT USE THIS ONE, SKIP TO NEXT STEP**)
+      ![Zotero](zotero-install-style.jpg)
 
-   a. In Mendeley, click **View > Citation Style > More Styles...**
+   d. Click **Institut Teknologi Bandung - Sekolah Pascasarjana**
 
-      ![Mendeley CSL](mendeley-csl-01.jpg)
+   e. Click **OK**.
 
-   b. Click **Get More Styles** tab.
+8. Congratulations! Now you are ready to collect documents, insert citations, and insert a bibliography in your documents.
 
-   c. Search for "institut teknologi bandung"
-
-   d. Click **Install**
-
-   e. Go to **Installed** tab.
-
-   f. Select **Institut Teknologi Bandung - SPs** then click **Use this Style**.
-
-   g. In **Citation and Bibliography Language**, select **Indonesian** or **English** based on the language of your thesis/dissertation.
-
-8. TODO - instructions for development version: 
-
-   a. Download the CSL file: [institut-teknologi-bandung-sps.csl](https://raw.githubusercontent.com/ceefour/styles/itb-sps/institut-teknologi-bandung-sps.csl).
-
-   b. In Mendeley, click **View > Citation Style > More Styles...**
-
-      ![Mendeley CSL](mendeley-csl-01.jpg)
-
-   c. Drag and drop `institut-teknologi-bandung-sps.csl` from File Explorer to Mendeley Citation Styles window.
-
-   d. Select **Institut Teknologi Bandung - SPs** then click **Use this Style**.
-
-   e. In **Citation and Bibliography Language**, select **Indonesian** or **English** based on the language of your thesis/dissertation.
-
-9. Congratulations! Now you are ready to collect documents, insert citations, and insert a bibliography in your documents.
 
 ### Collect Documents
 
-Before you can insert a citation, you need to collect documents first in Mendeley. There are many ways to collect documents, for example:
+Before you can insert a citation, you need to collect documents first in Zotero. Although there are many ways to collect documents, this guide will describe the most common ones:
 
 1. By adding a paper's PDF file
 
@@ -80,37 +55,41 @@ Before you can insert a citation, you need to collect documents first in Mendele
 
 #### Collect Documents from PDF files
 
-If you already have PDF files of the papers you want to add, click the **Add** button in the toolbar, then select the PDF files.
+If you already have PDF files of the papers you want to add, simply drag-and-drop PDF files to the Zotero Desktop.
 
-_Tip_: You can also drag-and-drop PDF files to the Mendeley Desktop window.
+Alternatively, you can also click **Add > Store Copy of File...**
 
-![Mendeley Reference File](mendeley-ref-file.jpg)
+![Zotero](zotero-ref-file.jpg)
 
 #### Collect Documents using the Web Importer plugin (recommended)
 
 The Web Importer is the most convenient way to add documents, it will even download the PDF file for you if available.
 
-1. [Install the Web Importer plugin](https://www.mendeley.com/reference-management/web-importer) for your favorite browser.
+1. [Install Zotero Browser Connector](https://www.zotero.org/download/) for your favorite browser.
 
-2. After the Web Importer plugin is installed, login to your Mendeley account.
+   ![Zotero](zotero-browser-connector.jpg)
 
-3. Visit Google Search, IEEE Xplore, or your favorite journal/proceeding web site. When you want to import the document(s) that you are viewing, click the **Import to Mendeley** button in your browser.
+2. After the Browser Connector add-on is installed, login to your [Zotero.org](https://www.zotero.org/) account.
 
-   ![Mendeley Web Importer](mendeley-web-importer.jpg)
+3. Visit Google Search, IEEE Xplore, or your favorite journal/proceeding web site. When you want to import the document(s) that you are viewing, click the **Save to Zotero** button in your browser.
+
+   ![Zotero](zotero-browser-connector2.jpg)
 
    Click **Save**.
 
-4. After you have finished importing documents from the web: Open **Mendeley Desktop app**, click **Sync** button.
+4. After you have finished importing documents from the web: Open **Zotero app**, click **Sync with zotero.org** button so that you can immediately use these documents.
 
-   Your imported documents will show up after sync is complete.
+   Your imported documents will show up in **Zotero app** after sync is complete.
+
+   ![Zotero](zotero-sync.jpg)
 
 #### Collect Documents Manually
 
 Sometimes the quick and easy methods do not work, or you just want to add documents manually.
 
-1. In Mendeley Desktop, click **Add > Add Entry Manually...**.
+1. In Zotero app, click **Add > (document type)**. Commonly used types are **Conference Proceeding** and **Journal Article**.
 
-   ![mendeley-manual.jpg](mendeley-manual.jpg)
+   ![zotero-manual.jpg](zotero-manual.jpg)
 
 2. Input the document details.
 
@@ -126,30 +105,35 @@ Mendeley will automatically try to fill the document details, but there are case
 
 ### Inserting Citations
 
-1. Create a Word document for your thesis or dissertation, preferably using the [template provided by SPs ITB](http://www.sps.itb.ac.id/in/pedoman-tesis-dan-disertasi/).
+1. Create a Word document for your thesis or dissertation, using the [template provided by SPs ITB](http://www.sps.itb.ac.id/in/pedoman-tesis-dan-disertasi/).
 
-2. In the place where you want to put the citation, click **References > Insert Citation**.
+2. In **Zotero** ribbon tab, click **Document Preferences**.
+
+   a. In **Citation Style**, choose **Institut Teknologi Bandung - Sekolah Pascasarjana**.
+   b. In **Language**, select **Bahasa Indonesia** or **English** based on the language of your thesis/dissertation.
+
+3. In the place where you want to put the citation, click **Zotero > Add/Edit Citation**.
 
    Type the keywords of your document (author, title, year, etc.) then double-click it or press Enter.
 
-   ![mendeley-citation.jpg](mendeley-citation.jpg)
 
 ### Inserting Bibliography
 
-In the place where you want to put the bibliography, click **References > Insert Bibliography**.
+In the place where you want to put the bibliography, click **Zotero > Add/Edit Bibliography**.
 
 The bibliography will be inserted using syntax according to SPs ITB guidelines.
 
-However, you will still need to ensure correct formatting according to [Pedoman Tesis dan Disertasi SPs ITB](http://www.sps.itb.ac.id/in/pedoman-tesis-dan-disertasi/), because the following are not controlled by CSL:
+**Important:** you will still need to ensure correct formatting according to [Pedoman Tesis dan Disertasi SPs ITB](http://www.sps.itb.ac.id/in/pedoman-tesis-dan-disertasi/), because the following are not controlled by CSL:
 
 * font and font size
 * paragraph justification
 
-## More about Mendeley
 
-Mendeley has **a lot** of useful features. This tutorial only covers the basic usage.
+## More about Zotero
 
-Check out [Mendeley Videos and Tutorials](https://www.mendeley.com/guides/videos) for more information.
+Zotero has **a lot** of useful features. This tutorial only covers the basic usage.
+
+Check out [Zotero Documentation](https://www.zotero.org/support/) for more information.
 
 ## Feedback
 
