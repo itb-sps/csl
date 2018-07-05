@@ -344,6 +344,67 @@ Example bibliography:
 
 Mayantasari, M. (2011): _Analisis citra radiografi panoramik pada condilus mandibula untuk deteksi dini osteoporosis_ (Disertasi Program Doktor), Institut Teknologi Bandung.
 
+### 13. Magazine Article
+
+| Field             | Required?   | Example                          |
+|-------------------|-------------|----------------------------------|
+| Title             | Required    | Pembakaran hutan di Kalimantan   |
+| Author(s)         | Required    | Baker, A. A.                     |
+|                   |             | Sosro, K.                        |
+|                   |             | Suditomo, B.                     |
+| Publication       | Required    | Majalah Kehutanan                |
+| Volume            | Optional    | 5                                |
+| Issue             | Optional    | 5                                |
+| Date              | Required    | 1998-05                          |
+| Pages             | Optional    | 23-25                            |
+| URL               | Optional    |                                  |
+
+Example bibliography:
+
+Baker, A. A., Sosro, K., dan Suditomo, B. (Mei 1998): Pembakaran hutan di Kalimantan, _Majalah Kehutanan_, **5**, 23–25.
+
+### 14. Report
+
+| Field             | Required?   | Example                          |
+|-------------------|-------------|----------------------------------|
+| Title             | Required    | Kajian potensi mineral ikutan pada pertambangan timah   |
+| Author(s)         | Required    | Pusat Data dan Teknologi Informasi Sumber Daya Energi dan Mineral Kementerian Energi dan Sumber Daya Mineral |
+| Date              | Required    | 2017                             |
+| Pages             | Optional    |                                  |
+| URL               | Optional    |                                  |
+
+### 15. Newspaper Article
+
+| Field             | Required?   | Example                          |
+|-------------------|-------------|----------------------------------|
+| Title             | Required    | Demokrasi di era otonomi daerah  |
+| Author(s)         | Optional    | Ij, Piliang                      |
+| Publication       | Required    | Kompas                           |
+| Date              | Required    | 2010-06                          |
+| Pages             | Optional    | 6                                |
+| URL               | Optional    |                                  |
+
+Example bibliography:
+
+* Ij, P. (10 Juni 2010): Demokrasi di era otonomi daerah, _Kompas_, hal. 6.
+* Pengelolaan diusulkan satu lembaga. (16 Oktober 2015): _Kompas_, hal. 14.
+
+### 16. Standard (item type: Report)
+
+| Field             | Required?   | Example                          |
+|-------------------|-------------|----------------------------------|
+| Title             | Required    | Recommended practice for analysis, design, installation, and testing of basic surface safety systems for offshore production platforms (API RP 14C) |
+| Author(s)         | Optional    | American Petroleum Institute     |
+| Place             | Optional    | Washington                       |
+| Institution       | Required    | API Publishing Service           |
+| Date              | Required    | 2001                             |
+| URL               | Optional    |                                  |
+
+Example bibliography:
+
+* Ij, P. (10 Juni 2010): Demokrasi di era otonomi daerah, _Kompas_, hal. 6.
+* Pengelolaan diusulkan satu lembaga. (16 Oktober 2015): _Kompas_, hal. 14.
+
 ### Personal Communication (including e-mail)
 
 This reference type is not supported by this CSL.
