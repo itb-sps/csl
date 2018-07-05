@@ -8,9 +8,7 @@ SPS ITB provides tutorial to use the CSL with the following software:
 
 As CSL is an open and widely supported format, it is also usable in other software, e.g. [LibreOffice](http://libreoffice.org), [Mendeley](https://mendeley.com/), and Linux-based operating systems like [Ubuntu](https://ubuntu.com/) and [Linux Mint](https://linuxmint.com/). Please refer to your reference manager's documentation on how to use this CSL in your preferred software, or you can [contribute to this documentation by submitting a GitHub pull request](https://github.com/itb-sps/csl).
 
-## Using This CSL with Microsoft Word 2010/2013/2016 and Mendeley
-
-### Preparation
+## Preparation
 
 1. Make sure you have installed **Microsoft Office 2010/2013/2016**.
 
@@ -43,7 +41,7 @@ As CSL is an open and widely supported format, it is also usable in other softwa
 8. Congratulations! Now you are ready to collect documents, insert citations, and insert a bibliography in your documents.
 
 
-### Collect Documents
+## Collect Documents
 
 Before you can insert a citation, you need to collect documents first in Zotero. Although there are many ways to collect documents, this guide will describe the most common ones:
 
@@ -53,7 +51,7 @@ Before you can insert a citation, you need to collect documents first in Zotero.
 
 3. Adding manually (as a last resort)
 
-#### Collect Documents from PDF files
+### Collect Documents from PDF files
 
 If you already have PDF files of the papers you want to add, simply drag-and-drop PDF files to the Zotero Desktop.
 
@@ -61,7 +59,7 @@ Alternatively, you can also click **Add > Store Copy of File...**
 
 ![Zotero](zotero-ref-file.jpg)
 
-#### Collect Documents using the Web Importer plugin (recommended)
+### Collect Documents using the Web Importer plugin (recommended)
 
 The Web Importer is the most convenient way to add documents, it will even download the PDF file for you if available.
 
@@ -83,7 +81,7 @@ The Web Importer is the most convenient way to add documents, it will even downl
 
    ![Zotero](zotero-sync.jpg)
 
-#### Collect Documents Manually
+### Collect Documents Manually
 
 Sometimes the quick and easy methods do not work, or you just want to add documents manually.
 
@@ -95,14 +93,10 @@ Sometimes the quick and easy methods do not work, or you just want to add docume
 
    ![Zotero](zotero-manual2.jpg)
 
-#### Edit/Correct Document Details
-
-Zotero will automatically try to fill the document details, but there are cases when this information is not accurate. You can edit or correct this using the **Info pane**.
-
-![Zotero](zotero-manual2.jpg)
+Refer to the later section **Document Types and Supported Fields** for more information on how to choose document type and fill these fields correctly.
 
 
-### Inserting Citations
+## Inserting Citations
 
 1. Create a Word document for your thesis or dissertation, using the [template provided by SPs ITB](http://www.sps.itb.ac.id/in/pedoman-tesis-dan-disertasi/).
 
@@ -116,7 +110,7 @@ Zotero will automatically try to fill the document details, but there are cases 
    Type the keywords of your document (author, title, year, etc.) then double-click it or press Enter.
 
 
-### Inserting Bibliography
+## Inserting Bibliography
 
 In the place where you want to put the bibliography, click **Zotero > Add/Edit Bibliography**.
 
@@ -133,6 +127,114 @@ The bibliography will be inserted using syntax according to SPs ITB guidelines.
 Zotero has **a lot** of useful features. This tutorial only covers the basic usage.
 
 Check out [Zotero Documentation](https://www.zotero.org/support/) for more information.
+
+
+## Document Types and Supported Fields
+
+Zotero will automatically try to fill the document details, but there are cases when this information is not accurate. You can edit or correct this using the **Info pane**.
+
+![Zotero](zotero-manual2.jpg)
+
+Below you will find all document types and fields supported by this CSL, and how to use them.
+
+#### 1. Book
+
+| Field      | Required? | Example                         |
+|------------|-----------|---------------------------------|
+| Title      | Required  | Priciples of measurement system |
+| Author(s)  | Required  | Bentley, John P.                |
+| Editor(s)  | Optional  |                                 |
+| Date       | Required  | 1995                            |
+| Place      | Required  | New York, NY                    |
+| Publisher  | Required  | John Wiley & Sons               |
+| # of Pages | Optional  |                                 |
+| Edition    | Optional  | 3rd                             |
+| Volume     | Optional  |                                 |
+
+Example bibliography:
+
+Bentley, J. P. (1995): _Priciples of measurement system_, New York, NY, John Wiley & Sons, 3rd ed.
+
+#### 2. Book Section
+
+| Field      | Required? | Example                         |
+|------------|-----------|---------------------------------|
+| Title      | Required  | Validation of instrument measuring continuous variable in medicine |
+| Author(s)  | Required  | Zaki, Rafdzah                   |
+| Editor(s)  | Optional  | Hokimoto, Tsukasa               |
+| Book Title | Required  | Advances in statistical methodologies and their application to real problems |
+| Date       | Required  | 2017                            |
+| Place      | Required  | London                          |
+| Publisher  | Required  | IntechOpen                      |
+| Pages      | Optional  | 217-237                         |
+| Edition    | Optional  |                                 |
+| Volume     | Optional  |                                 |
+
+Example bibliography:
+
+Zaki, R. (2017): Validation of instrument measuring continuous variable in medicine, _dalam_ T. Hokimoto, ed., _Advances in statistical methodologies and their application to real problems_, London, IntechOpen, 217–237.
+
+#### 3. E-book (item type: Book)
+
+| Field      | Required? | Example                         |
+|------------|-----------|---------------------------------|
+| Title      | Required  | Medical instrumentation: application and design |
+| Author(s)  | Required  | Webster, John G.                |
+| Editor(s)  | Optional  |                                 |
+| Date       | Required  | 2009                            |
+| URL        | Required  | https://books.google.co.id/     |
+| Place      | Optional  |                                 |
+| Publisher  | Optional  |                                 |
+| # of Pages | Optional  |                                 |
+| Edition    | Optional  | 4th                             |
+| Volume     | Optional  |                                 |
+
+#### 4. Journal Article
+
+| Field       | Required?   | Example                         |
+|-------------|-------------|---------------------------------|
+| Title       | Required    | Scanning X-ray microscopy with large solid angle X-ray fluorescence detection at the XUV beamline P04, DESY |
+| Author(s)   | Required    | Andrianov, K.                   |
+|             |             | Haidl, A.                       |
+|             |             | Lühl, L.                        |
+|             |             | Dehlinger, A.                   |
+|             |             | Dierks, H.                      |
+|             |             | Gnewkow, R.                     |
+|             |             | Nisius, T.                      |
+|             |             | Kanngießer, B.                  |
+|             |             | Wilhein, T.                     |
+| Publication | Required    | Journal of Instrumentation      |
+| Volume      | Optional    | 13                              |
+| Issue       | Optional    |                                 |
+| Pages       | Optional    |                                 |
+| Date        | Required    | 2008                            |
+| DOI         | Recommended | 10.1088/1742-6596/849/1/012007  |
+| URL         | Optional    | http://iopscience.iop.org/1742-6596/849/1/012007/ |
+
+Example bibliography:
+
+* Andrianov, K., Haidl, A., Lühl, L., Dehlinger, A., Dierks, H., Gnewkow, R., Nisius, T., Kanngießer, B., dan Wilhein, T. (2018): Scanning X-ray microscopy with large solid angle X-ray fluorescence detection at the XUV beamline P04, DESY, _Journal of Instrumentation_, **13**. https://doi.org/10.1088/1742-6596/849/1/012007
+
+#### 4. Conference Paper
+
+| Field       | Required?   | Example                         |
+|-------------|-------------|---------------------------------|
+| Title       | Required    | Review of computer assisted diagnosis to analyze the MRI (Magnetic Resource Image) and detect Alzheimer disease |
+| Author(s)   | Required    | Rabeh, Amira Ben                |
+|             |             | Benzarti, Faouzi                |
+|             |             | Amiri, Hamid                    |
+| Proceedings Title | Required    | 2017 14th International Conference on Computer Graphics, Imaging and Visualization      |
+| Publisher | Required    | IEEE      |
+| Volume      | Optional    |                                 |
+| Pages       | Optional    | 117-121                         |
+| Date        | Required    | 2017-05                         |
+| DOI         | Recommended | 10.1109/CGiV.2017.21            |
+| URL         | Optional    | https://ieeexplore.ieee.org/document/8361554/ |
+
+Example bibliography:
+
+* Rabeh, A. B., Benzarti, F., dan Amiri, H. (2017): Review of computer assisted diagnosis to analyze the MRI (Magnetic Resource Image) and detect Alzheimer disease, _2017 14th International Conference on Computer Graphics, Imaging and Visualization_, IEEE, 117–121. https://doi.org/10.1109/CGiV.2017.21
+
 
 ## Feedback
 
