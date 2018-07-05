@@ -1,147 +1,147 @@
-# SPs ITB Citation Style Language (CSL) Guide
+# Panduan Citation Style Language (CSL) SPs ITB
 
-[**English guide**](./) - [**Indonesian translation**](./id)
+[**Panduan bahasa Inggris**](./) - [**Terjemahan bahasa Indonesia**](./id)
 
-Sekolah Pascasarjana (SPs) ITB provides a Citation Style Language (CSL) which can be used in supported reference manager software, to format references and bibliography in conformance with [SPs ITB guidelines for master's thesis and doctoral dissertation](http://www.sps.itb.ac.id/in/pedoman-tesis-dan-disertasi/).
+Sekolah Pascasarjana (SPs) ITB menyediakan _Citation Style Language (CSL)_ yang dapat digunakan di perangkat lunak _reference manager_ yang didukung, untuk menata referensi dan daftar pustaka yang sesuai dengan [Pedoman Tesis Magister dan Disertasi SPs ITB](http://www.sps.itb.ac.id/in/pedoman-tesis-dan-disertasi/).
 
-SPS ITB provides tutorial to use the CSL with the following software:
+SPs ITB menyediakan panduan penggunaan CSL dengan perangkat lunak berikut:
 
-* [Microsoft Word 2010/2013/2016](https://products.office.com/en/word) and [Zotero](https://www.zotero.org/), for Windows and macOS
+* [Microsoft Word 2010/2013/2016](https://products.office.com/en/word) dan [Zotero](https://www.zotero.org/), untuk Windows dan macOS
 
-As CSL is an open and widely supported format, it is also usable in other software, e.g. [LibreOffice](http://libreoffice.org), [Mendeley](https://mendeley.com/), and Linux-based operating systems like [Ubuntu](https://ubuntu.com/) and [Linux Mint](https://linuxmint.com/). Please refer to your reference manager's documentation on how to use this CSL in your preferred software, or you can [contribute to this documentation by submitting a GitHub pull request](https://github.com/itb-sps/csl).
+CSL adalah format terbuka dan didukung secara luas, sehingga dapat digunakan dengan perangkat lunak lain, seperti [LibreOffice](http://libreoffice.org), [Mendeley](https://mendeley.com/), dan sistem operasi berbasis Linux seperti [Ubuntu](https://ubuntu.com/) dan [Linux Mint](https://linuxmint.com/). Lihat dokumentasi _reference manager_ Anda untuk menggunakan CSL ini di perangkat lunak yang Anda digunakan, atau Anda dapat berkontribusi ke panduan ini dengan [mengirim GitHub pull request](https://github.com/itb-sps/csl).
 
-## Preparation
+## Persiapan
 
-1. Make sure you have installed **Microsoft Office 2010/2013/2016**.
+1. Pastikan Anda telah memasang **Microsoft Office 2010/2013/2016**.
 
-2. Download and install **Zotero** from https://www.zotero.org/
+2. Pasang aplikasi **Zotero** dari https://www.zotero.org/
 
-3. Run Zotero.
+3. Jalankan Zotero.
 
-4. Sign-up or login to your Zotero account so you can save and sync all your references easily.
+4. Daftar atau login ke akun Zotero sehingga Anda dapat menyimpan dan menyinkronkan referensi dengan mudah.
 
-6. Ensure you can see Zotero in Microsoft Word's Zotero ribbon tab.
+6.Pastikan Anda dapat melihat Zotero tab di Microsoft Word.
 
    ![Zotero MS Word Plugin](zotero-ms-word-plugin-windows.jpg)
 
-7. Install **Institut Teknologi Bandung - Sekolah Pascasarjana** style, as follows:
+7. Pasang style **Institut Teknologi Bandung - Sekolah Pascasarjana**, dengan cara:
 
-   a. In Zotero, click **Edit > Preferences...**
+   a. Di Zotero, klik **Edit > Preferences...**
 
-   b. Click **Get additional styles...**.
+   b. Klik **Get additional styles...**.
 
       ![Zotero](zotero-styles.jpg)
 
-   c. Search for "**institut teknologi bandung**"
+   c. Cari "**institut teknologi bandung**"
 
       ![Zotero](zotero-install-style.jpg)
 
-   d. Click **Institut Teknologi Bandung - Sekolah Pascasarjana**
+   d. Klik **Institut Teknologi Bandung - Sekolah Pascasarjana**
 
-   e. Click **OK**.
+   e. Klik **OK**.
 
-8. Congratulations! Now you are ready to collect documents, insert citations, and insert a bibliography in your documents.
+8. Selamat! Anda sekarang siap untuk mengumpulkan dokumen, menambahkan sitasi, dan menambahkan daftar pustaka di karya ilmiah Anda.
 
 
-## Collect Documents
+## Mengumpulkan Dokumen
 
-Before you can insert a citation, you need to collect documents first in Zotero. Although there are many ways to collect documents, this guide will describe the most common ones:
+Sebelum Anda dapat menambahkan sitasi, Anda perlu mengumpulkan dokumen terlebih dahulu di Zotero. Ada banyak cara untuk menambahkan dokumen, panduan ini akan memaparkan cara-cara yang umum:
 
-1. By adding a paper's PDF file
+1. Menambahkan file PDF berisi paper
 
-2. Using the Browser Connector add-on (recommended)
+2. Menggunakan Browser Connector add-on (disarankan)
 
-3. Adding manually (as a last resort)
+3. Menambahkan manual (jalan terakhir)
 
-### Collect Documents from PDF files
+### Mengumpulkan Dokumen dari file PDF
 
-If you already have PDF files of the papers you want to add, simply drag-and-drop PDF files to the Zotero app.
+Bila Anda sudah memiliki file-file PDF dari paper-paper yang Anda inginkan, cukup _drag-and-drop_ file-file PDF tersebut ke aplikasi Zotero.
 
-Alternatively, you can also click **Add > Store Copy of File...**
+Alternatif lain, Anda juga dapat klik **Add > Store Copy of File...**
 
 ![Zotero](zotero-ref-file.jpg)
 
-### Collect Documents using the Browser Connector add-on (recommended)
+### Mengumpulkan Dokumen dengan Browser Connector add-on (disarankan)
 
-The Browser Connector add-on is the most convenient way to add documents, it will even download the PDF file for you if available.
+Browser Connector adalah cara paling nyaman untuk menambahkan dokumen, dan bila file PDFnya tersedia juga akan diunduh secara otomatis.
 
-1. [Install Zotero Browser Connector](https://www.zotero.org/download/) for your favorite browser.
+1. [Pasang Zotero Browser Connector](https://www.zotero.org/download/) untuk browser Anda.
 
    ![Zotero](zotero-browser-connector.jpg)
 
-2. After the Browser Connector add-on is installed, login to your [Zotero.org](https://www.zotero.org/) account.
+2. Setelah Browser Connector add-on terpasang, login ke akun [Zotero.org](https://www.zotero.org/) Anda.
 
-3. Visit Google Search, IEEE Xplore, or your favorite journal/proceeding web site. When you want to import the document(s) that you are viewing, click the **Save to Zotero** button in your browser.
+3. Kunjungi Google Search, IEEE Xplore, atau website jurnal/prosiding favorit Anda. Untuk mengimpor dokumen-dokumen dari website yang sedang Anda lihat, klik **Save to Zotero** di _toolbar_ browser Anda.
 
    ![Zotero](zotero-browser-connector2.jpg)
 
-   Click **Save**.
+   Klik **Save**.
 
-4. After you have finished importing documents from the web: Open **Zotero app**, click **Sync with zotero.org** button so that you can immediately use these documents.
+4. Setelah selesai mengimpor dari web: Buka **Zotero app**, klik **Sync with zotero.org** sehingga Anda dapat segera menggunakan dokumen-dokumen tadi.
 
-   Your imported documents will show up in **Zotero app** after sync is complete.
+   Dokumen-dokumen yang diimport akan muncul di aplikasi **Zotero** setelah sinkronisasi selesai.
 
    ![Zotero](zotero-sync.jpg)
 
-### Collect Documents Manually
+### Mengumpulkan Dokumen secara Manual
 
-Sometimes the quick and easy methods do not work, or you just want to add documents manually.
+Kadang-kadang cara praktis dan mudah tidak berfungsi baik, atau Anda sekedar ingin menambahkan dokumen secara manual.
 
-1. In Zotero app, click **Add > (document type)**. Commonly used types are **Conference Proceeding** and **Journal Article**.
+1. Di aplikasi Zotero, klik **Add > (document type)**. Beberapa tipe yang umum digunakan adalah **Conference Proceeding** dan **Journal Article**.
 
    ![Zotero](zotero-manual.jpg)
 
-2. In the **Info pane**, enter the document details.
+2. Di **Info pane**, masukkan detail dokumen.
 
    ![Zotero](zotero-manual2.jpg)
 
-Refer to the later section **Document Types and Supported Fields** for more information on how to choose document type and fill these fields correctly.
+Baca bagian **Tipe Dokumen dan Field-field yang Didukung** untuk informasi lanjutan cara memilih tipe dokumen dan mengisi field-field dengan benar.
 
 
-## Inserting Citations
+## Mencantumkan Sitasi
 
-1. Create a Word document for your thesis or dissertation, using the [template provided by SPs ITB](http://www.sps.itb.ac.id/in/pedoman-tesis-dan-disertasi/).
+1. Buat dokumen Word untuk tesis atau disertasi Anda menggunakan [templat dari SPs ITB](http://www.sps.itb.ac.id/in/pedoman-tesis-dan-disertasi/).
 
-2. In **Zotero** ribbon tab, click **Document Preferences**.
+2. Di **Zotero** _ribbon tab_, klik **Document Preferences**.
 
-   a. In **Citation Style**, choose **Institut Teknologi Bandung - Sekolah Pascasarjana**.
-   b. In **Language**, select **Bahasa Indonesia** or **English** based on the language of your thesis/dissertation.
+   a. Di **Citation Style**, pilih **Institut Teknologi Bandung - Sekolah Pascasarjana**.
+   b. Di **Language**, pilih **Bahasa Indonesia** atau **English** berdasarkan bahasa yang digunakan tesis atau disertasi Anda.
 
-3. In the place where you want to put the citation, click **Zotero > Add/Edit Citation**.
+3. Posisikan kursor di tempat Anda ingin mencantumkan sitasi, klik **Zotero > Add/Edit Citation**.
 
-   Type the keywords of your document (author, title, year, etc.) then double-click it or press Enter.
-
-
-## Inserting Bibliography
-
-In the place where you want to put the bibliography, click **Zotero > Add/Edit Bibliography**.
-
-The bibliography will be inserted using syntax according to SPs ITB guidelines.
-
-**Important:** you will still need to ensure correct formatting according to [Pedoman Tesis dan Disertasi SPs ITB](http://www.sps.itb.ac.id/in/pedoman-tesis-dan-disertasi/), because the following are not controlled by CSL:
-
-* font and font size
-* paragraph justification
+   Ketik kata kunci dokumen (author, judul, tahun, dll.) lalu dobel-klik atau tekan Enter.
 
 
-## More about Zotero
+## Membuat Daftar Pustaka
 
-Zotero has **a lot** of useful features. This tutorial only covers the basic usage.
+Posisikan kursor di bawah judul Daftar Pustaka, klik **Zotero > Add/Edit Bibliography**.
 
-Check out [Zotero Documentation](https://www.zotero.org/support/) for more information.
+Daftar Pustaka akan ditambahkan sesuai sintaks SPs ITB.
+
+**Penting:** Anda tetap perlu melakukan penataan sesuai [Pedoman Tesis dan Disertasi SPs ITB](http://www.sps.itb.ac.id/in/pedoman-tesis-dan-disertasi/), karena _formatting_ berikut tidak dikendalikan oleh CSL:
+
+* font dan ukuran font
+* justifikasi paragraf
 
 
-## Document Types and Supported Fields
+## Tentang Zotero
 
-Zotero will automatically try to fill the document details, but there are cases when this information is not accurate. You can edit or correct this using the **Info pane**.
+Zotero memiliki **banyak** fitur penting. Panduan ini hanya mencakup penggunaan dasar.
+
+Baca [Zotero Documentation](https://www.zotero.org/support/) untuk informasi lebih lanjut.
+
+
+## Tipe Dokumen dan Field-field yang Didukung
+
+Zotero secara otomatis berusaha mengisi detail dokumen, namun informasi ini belum tentu akurat. Anda dapat menyunting atau mengoreksinya menggunakan **Info pane**.
 
 ![Zotero](zotero-manual2.jpg)
 
-Below you will find all document types and fields supported by this CSL, and how to use them.
+Berikut adalah semua tipe dokumen dan field-field yang didukung oleh CSL ini, dan cara penggunaannya.
 
-### 1. Book
+### 1. Book (buku)
 
-| Field      | Required? | Example                         |
+| Field      | Required? | Contoh                          |
 |------------|-----------|---------------------------------|
 | Title      | Required  | Principles of measurement system |
 | Author(s)  | Required  | Bentley, John P.                |
@@ -153,13 +153,13 @@ Below you will find all document types and fields supported by this CSL, and how
 | Edition    | Optional  | 3rd                             |
 | Volume     | Optional  |                                 |
 
-Example bibliography:
+Contoh daftar pustaka:
 
 Bentley, J. P. (1995): _Principles of measurement system_ (3rd ed.), New York, NY, John Wiley & Sons.
 
 ### 2. Book Section
 
-| Field      | Required? | Example                         |
+| Field      | Required? | Contoh                          |
 |------------|-----------|---------------------------------|
 | Title      | Required  | Validation of instrument measuring continuous variable in medicine |
 | Author(s)  | Required  | Zaki, Rafdzah                   |
@@ -172,13 +172,13 @@ Bentley, J. P. (1995): _Principles of measurement system_ (3rd ed.), New York, N
 | Edition    | Optional  |                                 |
 | Volume     | Optional  |                                 |
 
-Example bibliography:
+Contoh daftar pustaka:
 
 Zaki, R. (2017): Validation of instrument measuring continuous variable in medicine, _dalam_ T. Hokimoto, ed., _Advances in statistical methodologies and their application to real problems_, London, IntechOpen, 217–237.
 
 ### 3. E-book (item type: Book)
 
-| Field      | Required? | Example                         |
+| Field      | Required? | Contoh                          |
 |------------|-----------|---------------------------------|
 | Title      | Required  | Medical instrumentation: application and design |
 | Author(s)  | Required  | Webster, John G.                |
@@ -191,9 +191,9 @@ Zaki, R. (2017): Validation of instrument measuring continuous variable in medic
 | Edition    | Optional  | 4th                             |
 | Volume     | Optional  |                                 |
 
-### 4. Journal Article
+### 4. Journal Article (artikel di jurnal)
 
-| Field       | Required?   | Example                         |
+| Field       | Required?   | Contoh                          |
 |-------------|-------------|---------------------------------|
 | Title       | Required    | Scanning X-ray microscopy with large solid angle X-ray fluorescence detection at the XUV beamline P04, DESY |
 | Author(s)   | Required    | Andrianov, K.                   |
@@ -213,13 +213,13 @@ Zaki, R. (2017): Validation of instrument measuring continuous variable in medic
 | DOI         | Recommended | 10.1088/1742-6596/849/1/012007  |
 | URL         | Optional    | http://iopscience.iop.org/1742-6596/849/1/012007/ |
 
-Example bibliography:
+Contoh daftar pustaka:
 
 Andrianov, K., Haidl, A., Lühl, L., Dehlinger, A., Dierks, H., Gnewkow, R., Nisius, T., Kanngießer, B., dan Wilhein, T. (2018): Scanning X-ray microscopy with large solid angle X-ray fluorescence detection at the XUV beamline P04, DESY, _Journal of Instrumentation_, **13**. https://doi.org/10.1088/1742-6596/849/1/012007
 
-### 4. Conference Paper
+### 4. Conference Paper (paper konferensi)
 
-| Field       | Required?   | Example                         |
+| Field       | Required?   | Contoh                          |
 |-------------|-------------|---------------------------------|
 | Title       | Required    | Review of computer assisted diagnosis to analyze the MRI (Magnetic Resource Image) and detect Alzheimer disease |
 | Author(s)   | Required    | Rabeh, Amira Ben                |
@@ -233,13 +233,13 @@ Andrianov, K., Haidl, A., Lühl, L., Dehlinger, A., Dierks, H., Gnewkow, R., Nis
 | DOI         | Recommended | 10.1109/CGiV.2017.21            |
 | URL         | Optional    | https://ieeexplore.ieee.org/document/8361554/ |
 
-Example bibliography:
+Contoh daftar pustaka:
 
 Rabeh, A. B., Benzarti, F., dan Amiri, H. (2017): Review of computer assisted diagnosis to analyze the MRI (Magnetic Resource Image) and detect Alzheimer disease, _2017 14th International Conference on Computer Graphics, Imaging and Visualization_, IEEE, 117–121. https://doi.org/10.1109/CGiV.2017.21
 
 ### 5. Webpage (item type: Document)
 
-| Field       | Required?   | Example                         |
+| Field       | Required?   | Contoh                          |
 |-------------|-------------|---------------------------------|
 | Title       | Required    | Ultrasonic Detection – Basics & Application |
 | Author(s)   | Required    | Agarwal, Tarun                  |
@@ -248,13 +248,13 @@ Rabeh, A. B., Benzarti, F., dan Amiri, H. (2017): Review of computer assisted di
 | Date        | Required    | 2015                            |
 | URL         | Required    | https://www.elprocus.com/ultrasonic-detection-basics-application/ |
 
-Example bibliography:
+Contoh daftar pustaka:
 
 Agarwal, T. (2015): Ultrasonic Detection – Basics & Application, diperoleh melalui situs internet: https://www.elprocus.com/ultrasonic-detection-basics-application/.
 
 ### 6. Patent
 
-| Field             | Required?   | Example                          |
+| Field             | Required?   | Contoh                           |
 |-------------------|-------------|----------------------------------|
 | Patent Number     | Required    | U.S. Patent No. 6,606,963        |
 | Title             | Optional    |                                  |
@@ -264,13 +264,13 @@ Agarwal, T. (2015): Ultrasonic Detection – Basics & Application, diperoleh mel
 | Issue Date        | Required    | 2003                             |
 | URL               | Optional    | https://patents.google.com/patent/US6606963B1/en |
 
-Example bibliography:
+Contoh daftar pustaka:
 
 Wynne, B. M. (2003): _U.S. Patent No. 6,606,963_, Washington, DC, U.S. Patent and Trademark Office. 
 
 ### 7. Thesis (including Dissertation)
 
-| Field             | Required?   | Example                          |
+| Field             | Required?   | Contoh                           |
 |-------------------|-------------|----------------------------------|
 | Title             | Required    | Analisis citra radiografi panoramik pada condilus mandibula untuk deteksi dini osteoporosis |
 | Author(s)         | Required    | Mayantasari, Menasita            |
@@ -280,13 +280,13 @@ Wynne, B. M. (2003): _U.S. Patent No. 6,606,963_, Washington, DC, U.S. Patent an
 | Date              | Required    | 2011                             |
 | URL               | Optional    |                                  |
 
-Example bibliography:
+Contoh daftar pustaka:
 
 Mayantasari, M. (2011): _Analisis citra radiografi panoramik pada condilus mandibula untuk deteksi dini osteoporosis_ (Disertasi Program Doktor), Institut Teknologi Bandung.
 
 ### 8. Report
 
-| Field             | Required?   | Example                          |
+| Field             | Required?   | Contoh                           |
 |-------------------|-------------|----------------------------------|
 | Title             | Required    | Kajian potensi mineral ikutan pada pertambangan timah   |
 | Author(s)         | Required    | Pusat Data dan Teknologi Informasi Sumber Daya Energi dan Mineral Kementerian Energi dan Sumber Daya Mineral |
@@ -296,7 +296,7 @@ Mayantasari, M. (2011): _Analisis citra radiografi panoramik pada condilus mandi
 
 ### 9. Standard (item type: Report)
 
-| Field             | Required?   | Example                          |
+| Field             | Required?   | Contoh                           |
 |-------------------|-------------|----------------------------------|
 | Title             | Required    | Recommended practice for analysis, design, installation, and testing of basic surface safety systems for offshore production platforms (API RP 14C) |
 | Author(s)         | Optional    | American Petroleum Institute     |
@@ -305,14 +305,14 @@ Mayantasari, M. (2011): _Analisis citra radiografi panoramik pada condilus mandi
 | Date              | Required    | 2001                             |
 | URL               | Optional    |                                  |
 
-Example bibliography:
+Contoh daftar pustaka:
 
 * Ij, P. (10 Juni 2010): Demokrasi di era otonomi daerah, _Kompas_, hal. 6.
 * Pengelolaan diusulkan satu lembaga. (16 Oktober 2015): _Kompas_, hal. 14.
 
-### 10. Magazine Article
+### 10. Magazine Article (artikel majalah)
 
-| Field             | Required?   | Example                          |
+| Field             | Required?   | Contoh                           |
 |-------------------|-------------|----------------------------------|
 | Title             | Required    | Pembakaran hutan di Kalimantan   |
 | Author(s)         | Required    | Baker, A. A.                     |
@@ -325,13 +325,13 @@ Example bibliography:
 | Pages             | Optional    | 23-25                            |
 | URL               | Optional    |                                  |
 
-Example bibliography:
+Contoh daftar pustaka:
 
 Baker, A. A., Sosro, K., dan Suditomo, B. (Mei 1998): Pembakaran hutan di Kalimantan, _Majalah Kehutanan_, **5**, 23–25.
 
 ### 11. Newspaper Article
 
-| Field             | Required?   | Example                          |
+| Field             | Required?   | Contoh                           |
 |-------------------|-------------|----------------------------------|
 | Title             | Required    | Demokrasi di era otonomi daerah  |
 | Author(s)         | Optional    | Ij, Piliang                      |
@@ -340,14 +340,14 @@ Baker, A. A., Sosro, K., dan Suditomo, B. (Mei 1998): Pembakaran hutan di Kalima
 | Pages             | Optional    | 6                                |
 | URL               | Optional    |                                  |
 
-Example bibliography:
+Contoh daftar pustaka:
 
 * Ij, P. (10 Juni 2010): Demokrasi di era otonomi daerah, _Kompas_, hal. 6.
 * Pengelolaan diusulkan satu lembaga. (16 Oktober 2015): _Kompas_, hal. 14.
 
 ### 12. Radio Broadcast and TV Broadcast
 
-| Field       | Required?   | Example                         |
+| Field       | Required?   | Contoh                          |
 |-------------|-------------|---------------------------------|
 | Title       | Required    | Arkangel                        |
 | Director(s) | Required    | Foster, J.                     |
@@ -358,15 +358,15 @@ Example bibliography:
 | Date        | Required    | 2016                            |
 | URL         | Optional    |                                 |
 
-Example bibliography:
+Contoh daftar pustaka:
 
 Foster, J. (Sutradara). (2016): Arkangel, _dalam_ Black Mirror, United Kingdom, Netflix.
 
-This CSL does not yet support Scriptwriter and Producer fields. If you need to add them, please type manually in the bibliography.
+CSL ini belum mendukung _field_ Scriptwriter (penulis) dan Producer (produser). Bila Anda membutuhkannya, mohon menuliskannya secara manual di daftar pustaka.
 
 ### 13. Internet Movie Clip (item type: TV Broadcast)
 
-| Field       | Required?   | Example                         |
+| Field       | Required?   | Contoh                          |
 |-------------|-------------|---------------------------------|
 | Title       | Required    | Matchalatte                     |
 | Director(s) | Required    | Maychaelson, R.                 |
@@ -375,11 +375,11 @@ This CSL does not yet support Scriptwriter and Producer fields. If you need to a
 | Date        | Required    | 2018                            |
 | URL         | Required    | https://www.youtube.com/watch?v=Mb8aeRuAJZw |
 
-This CSL does not yet support Scriptwriter and Producer fields. If you need to add them, please type manually in the bibliography.
+CSL ini belum mendukung _field_ Scriptwriter (penulis) dan Producer (produser). Bila Anda membutuhkannya, mohon menuliskannya secara manual di daftar pustaka.
 
 ### 14. Film
 
-| Field       | Required?   | Example                         |
+| Field       | Required?   | Contoh                          |
 |-------------|-------------|---------------------------------|
 | Title       | Required    | Kartini                         |
 | Director(s) | Required    | Bramantyo, Hanung               |
@@ -387,15 +387,15 @@ This CSL does not yet support Scriptwriter and Producer fields. If you need to a
 | Date        | Required    | 2017                            |
 | URL         | Required    | https://www.youtube.com/watch?v=Mb8aeRuAJZw |
 
-Example bibliography:
+Contoh daftar pustaka:
 
 Bramantyo, H. (Sutradara). (2017): _Kartini_, Indonesia, Legacy Picture dan Screenplay Films.
 
-This CSL does not yet support Scriptwriter and Producer fields. If you need to add them, please type manually in the bibliography.
+CSL ini belum mendukung _field_ Scriptwriter (penulis) dan Producer (produser). Bila Anda membutuhkannya, mohon menuliskannya secara manual di daftar pustaka.
 
-### 15. Artwork (i.e. photo)
+### 15. Artwork (misalnya foto)
 
-| Field       | Required?   | Example                         |
+| Field       | Required?   | Contoh                          |
 |-------------|-------------|---------------------------------|
 | Title       | Required    | The eyes have it                |
 | Author(s)   | Required    | Krivic, M.                      |
@@ -403,22 +403,22 @@ This CSL does not yet support Scriptwriter and Producer fields. If you need to a
 | Archive     | Required    | Timbuktu, National Geographic   |
 | URL         | Optional    |                                 |
 
-Example bibliography:
+Contoh daftar pustaka:
 
 Krivic, M. (2018): _The eyes have it_, Timbuktu, National Geographic.
 
 
-### 16. Personal Communication (including e-mail)
+### 16. Komunikasi Pribadi (termasuk e-mail)
 
-This reference type is not supported by this CSL.
+Tipe dokumen ini tidak didukung oleh CSL ini.
 
-You will need to type them manually:
+Anda perlu menambahkannya secara manual:
 
-* Inline citation: (Robbins, 2001)
-* Bibliography (Indonesian): E. Robbins, komunikasi pribadi (4 Januari 2001).
-* Bibliography (English): E. Robbins, personal communication (January 4, 2001).
+* Sitasi dalam teks: (Robbins, 2001)
+* Daftar pustaka (bahasa Indonesia): E. Robbins, komunikasi pribadi (4 Januari 2001).
+* Daftar pustaka (bahasa Inggris): E. Robbins, personal communication (January 4, 2001).
 
 
-## Feedback
+## Kritik dan Saran
 
-If you have feedback and suggestions about this CSL and/or its documentation, please [post an issue here](https://github.com/itb-sps/csl/issues) or email [hendy@hendyirawan.com](mailto:hendy@hendyirawan.com).
+Untuk memberikan saran dan masukan tentang CSL ini atau panduannya, silakan [buat _issue_ di sini](https://github.com/itb-sps/csl/issues) atau kirim email ke [hendy@hendyirawan.com](mailto:hendy@hendyirawan.com).
