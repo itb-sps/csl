@@ -89,19 +89,18 @@ Sometimes the quick and easy methods do not work, or you just want to add docume
 
 1. In Zotero app, click **Add > (document type)**. Commonly used types are **Conference Proceeding** and **Journal Article**.
 
-   ![zotero-manual.jpg](zotero-manual.jpg)
+   ![Zotero](zotero-manual.jpg)
 
-2. Input the document details.
+2. In the **Info pane**, enter the document details.
 
-   ![mendeley-manual-2.jpg](mendeley-manual-2.jpg)
-
-3. Click **Save**.
+   ![Zotero](zotero-manual2.jpg)
 
 #### Edit/Correct Document Details
 
-Mendeley will automatically try to fill the document details, but there are cases when this information is not accurate. You can edit or correct this using the **Details** sidebar.
+Zotero will automatically try to fill the document details, but there are cases when this information is not accurate. You can edit or correct this using the **Info pane**.
 
-![Mendeley Reference File](mendeley-ref-details.jpg)
+![Zotero](zotero-manual2.jpg)
+
 
 ### Inserting Citations
 
