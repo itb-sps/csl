@@ -137,11 +137,11 @@ Zotero will automatically try to fill the document details, but there are cases 
 
 Below you will find all document types and fields supported by this CSL, and how to use them.
 
-#### 1. Book
+### 1. Book
 
 | Field      | Required? | Example                         |
 |------------|-----------|---------------------------------|
-| Title      | Required  | Priciples of measurement system |
+| Title      | Required  | Principles of measurement system |
 | Author(s)  | Required  | Bentley, John P.                |
 | Editor(s)  | Optional  |                                 |
 | Date       | Required  | 1995                            |
@@ -153,9 +153,9 @@ Below you will find all document types and fields supported by this CSL, and how
 
 Example bibliography:
 
-Bentley, J. P. (1995): _Priciples of measurement system_, New York, NY, John Wiley & Sons, 3rd ed.
+Bentley, J. P. (1995): _Principles of measurement system_ (3rd ed.), New York, NY, John Wiley & Sons.
 
-#### 2. Book Section
+### 2. Book Section
 
 | Field      | Required? | Example                         |
 |------------|-----------|---------------------------------|
@@ -174,7 +174,7 @@ Example bibliography:
 
 Zaki, R. (2017): Validation of instrument measuring continuous variable in medicine, _dalam_ T. Hokimoto, ed., _Advances in statistical methodologies and their application to real problems_, London, IntechOpen, 217–237.
 
-#### 3. E-book (item type: Book)
+### 3. E-book (item type: Book)
 
 | Field      | Required? | Example                         |
 |------------|-----------|---------------------------------|
@@ -189,7 +189,7 @@ Zaki, R. (2017): Validation of instrument measuring continuous variable in medic
 | Edition    | Optional  | 4th                             |
 | Volume     | Optional  |                                 |
 
-#### 4. Journal Article
+### 4. Journal Article
 
 | Field       | Required?   | Example                         |
 |-------------|-------------|---------------------------------|
@@ -213,9 +213,9 @@ Zaki, R. (2017): Validation of instrument measuring continuous variable in medic
 
 Example bibliography:
 
-* Andrianov, K., Haidl, A., Lühl, L., Dehlinger, A., Dierks, H., Gnewkow, R., Nisius, T., Kanngießer, B., dan Wilhein, T. (2018): Scanning X-ray microscopy with large solid angle X-ray fluorescence detection at the XUV beamline P04, DESY, _Journal of Instrumentation_, **13**. https://doi.org/10.1088/1742-6596/849/1/012007
+Andrianov, K., Haidl, A., Lühl, L., Dehlinger, A., Dierks, H., Gnewkow, R., Nisius, T., Kanngießer, B., dan Wilhein, T. (2018): Scanning X-ray microscopy with large solid angle X-ray fluorescence detection at the XUV beamline P04, DESY, _Journal of Instrumentation_, **13**. https://doi.org/10.1088/1742-6596/849/1/012007
 
-#### 4. Conference Paper
+### 4. Conference Paper
 
 | Field       | Required?   | Example                         |
 |-------------|-------------|---------------------------------|
@@ -224,7 +224,7 @@ Example bibliography:
 |             |             | Benzarti, Faouzi                |
 |             |             | Amiri, Hamid                    |
 | Proceedings Title | Required    | 2017 14th International Conference on Computer Graphics, Imaging and Visualization      |
-| Publisher | Required    | IEEE      |
+| Publisher   | Required    | IEEE                            |
 | Volume      | Optional    |                                 |
 | Pages       | Optional    | 117-121                         |
 | Date        | Required    | 2017-05                         |
@@ -233,7 +233,126 @@ Example bibliography:
 
 Example bibliography:
 
-* Rabeh, A. B., Benzarti, F., dan Amiri, H. (2017): Review of computer assisted diagnosis to analyze the MRI (Magnetic Resource Image) and detect Alzheimer disease, _2017 14th International Conference on Computer Graphics, Imaging and Visualization_, IEEE, 117–121. https://doi.org/10.1109/CGiV.2017.21
+Rabeh, A. B., Benzarti, F., dan Amiri, H. (2017): Review of computer assisted diagnosis to analyze the MRI (Magnetic Resource Image) and detect Alzheimer disease, _2017 14th International Conference on Computer Graphics, Imaging and Visualization_, IEEE, 117–121. https://doi.org/10.1109/CGiV.2017.21
+
+### 5. Webpage (item type: Document)
+
+| Field       | Required?   | Example                         |
+|-------------|-------------|---------------------------------|
+| Title       | Required    | Ultrasonic Detection – Basics & Application |
+| Author(s)   | Required    | Agarwal, Tarun                  |
+| Proceedings Title | Required    | 2017 14th International Conference on Computer Graphics, Imaging and Visualization      |
+| Publisher   | Optional    |                                 |
+| Date        | Required    | 2015                            |
+| URL         | Required    | https://www.elprocus.com/ultrasonic-detection-basics-application/ |
+
+Example bibliography:
+
+Agarwal, T. (2015): Ultrasonic Detection – Basics & Application, diperoleh melalui situs internet: https://www.elprocus.com/ultrasonic-detection-basics-application/.
+
+### 7. Radio Broadcast and TV Broadcast
+
+| Field       | Required?   | Example                         |
+|-------------|-------------|---------------------------------|
+| Title       | Required    | Arkangel                        |
+| Director(s) | Required    | Foster, J.                     |
+| Program Title | Required    | Black Mirror       |
+| Episode Number | Optional    |                            |
+| Place       | Required    | United Kingdom                  |
+| Network     | Required    | Netflix                         |
+| Date        | Required    | 2016                            |
+| URL         | Optional    |                                 |
+
+Example bibliography:
+
+Foster, J. (Sutradara). (2016): Arkangel, _dalam_ Black Mirror, United Kingdom, Netflix.
+
+This CSL does not yet support Scriptwriter and Producer fields. If you need to add them, please type manually in the bibliography.
+
+### 8. Internet Movie Clip (item type: TV Broadcast)
+
+| Field       | Required?   | Example                         |
+|-------------|-------------|---------------------------------|
+| Title       | Required    | Matchalatte                     |
+| Director(s) | Required    | Maychaelson, R.                 |
+| Program Title | Optional    |                               |
+| Episode Number | Optional    |                              |
+| Date        | Required    | 2018                            |
+| URL         | Required    | https://www.youtube.com/watch?v=Mb8aeRuAJZw |
+
+This CSL does not yet support Scriptwriter and Producer fields. If you need to add them, please type manually in the bibliography.
+
+### 9. Film
+
+| Field       | Required?   | Example                         |
+|-------------|-------------|---------------------------------|
+| Title       | Required    | Kartini                         |
+| Director(s) | Required    | Bramantyo, Hanung               |
+| Distributor | Required    | Indonesia, Legacy Picture dan Screenplay Films |
+| Date        | Required    | 2017                            |
+| URL         | Required    | https://www.youtube.com/watch?v=Mb8aeRuAJZw |
+
+Example bibliography:
+
+Bramantyo, H. (Sutradara). (2017): _Kartini_, Indonesia, Legacy Picture dan Screenplay Films.
+
+This CSL does not yet support Scriptwriter and Producer fields. If you need to add them, please type manually in the bibliography.
+
+### 10. Artwork (i.e. photo)
+
+| Field       | Required?   | Example                         |
+|-------------|-------------|---------------------------------|
+| Title       | Required    | The eyes have it                |
+| Author(s)   | Required    | Krivic, M.                      |
+| Date        | Required    | 2018                            |
+| Archive     | Required    | Timbuktu, National Geographic   |
+| URL         | Optional    |                                 |
+
+Example bibliography:
+
+Krivic, M. (2018): _The eyes have it_, Timbuktu, National Geographic.
+
+### 11. Patent
+
+| Field             | Required?   | Example                          |
+|-------------------|-------------|----------------------------------|
+| Patent Number     | Required    | U.S. Patent No. 6,606,963        |
+| Title             | Optional    |                                  |
+| Inventor(s)       | Required    | Wynne, B. M.                     |
+| Place             | Required    | Washington, DC                   |
+| Issuing Authority | Required    | U.S. Patent and Trademark Office |
+| Issue Date        | Required    | 2003                             |
+| URL               | Optional    | https://patents.google.com/patent/US6606963B1/en |
+
+Example bibliography:
+
+Wynne, B. M. (2003): _U.S. Patent No. 6,606,963_, Washington, DC, U.S. Patent and Trademark Office. 
+
+### 12. Thesis (including Dissertation)
+
+| Field             | Required?   | Example                          |
+|-------------------|-------------|----------------------------------|
+| Title             | Required    | Analisis citra radiografi panoramik pada condilus mandibula untuk deteksi dini osteoporosis |
+| Author(s)         | Required    | Mayantasari, Menasita            |
+| Place             | Optional    |                                  |
+| Type              | Optional    | Disertasi Program Doktor         |
+| University        | Required    | Institut Teknologi Bandung       |
+| Date              | Required    | 2011                             |
+| URL               | Optional    |                                  |
+
+Example bibliography:
+
+Mayantasari, M. (2011): _Analisis citra radiografi panoramik pada condilus mandibula untuk deteksi dini osteoporosis_ (Disertasi Program Doktor), Institut Teknologi Bandung.
+
+### Personal Communication (including e-mail)
+
+This reference type is not supported by this CSL.
+
+You will need to type them manually:
+
+* Inline citation: (Robbins, 2001)
+* Bibliography (Indonesian): E. Robbins, komunikasi pribadi (4 Januari 2001).
+* Bibliography (English): E. Robbins, personal communication (January 4, 2001).
 
 
 ## Feedback
