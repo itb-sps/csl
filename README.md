@@ -14,7 +14,7 @@ As CSL is an open and widely supported format, it is also usable in other softwa
 
 1. Make sure you have installed **Microsoft Office 2010/2013/2016**.
 
-2. Download and install **Zotero** from https://www.zotero.org/
+2. Download and install **Zotero** from [https://www.zotero.org/](www.zotero.org)
 
 3. Run Zotero.
 

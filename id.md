@@ -14,7 +14,7 @@ CSL adalah format terbuka dan didukung secara luas, sehingga dapat digunakan den
 
 1. Pastikan Anda telah memasang **Microsoft Office 2010/2013/2016**.
 
-2. Pasang aplikasi **Zotero** dari https://www.zotero.org/
+2. Pasang aplikasi **Zotero** dari [https://www.zotero.org/](www.zotero.org)
 
 3. Jalankan Zotero.
 
