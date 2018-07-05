@@ -250,69 +250,7 @@ Example bibliography:
 
 Agarwal, T. (2015): Ultrasonic Detection – Basics & Application, diperoleh melalui situs internet: https://www.elprocus.com/ultrasonic-detection-basics-application/.
 
-### 7. Radio Broadcast and TV Broadcast
-
-| Field       | Required?   | Example                         |
-|-------------|-------------|---------------------------------|
-| Title       | Required    | Arkangel                        |
-| Director(s) | Required    | Foster, J.                     |
-| Program Title | Required    | Black Mirror       |
-| Episode Number | Optional    |                            |
-| Place       | Required    | United Kingdom                  |
-| Network     | Required    | Netflix                         |
-| Date        | Required    | 2016                            |
-| URL         | Optional    |                                 |
-
-Example bibliography:
-
-Foster, J. (Sutradara). (2016): Arkangel, _dalam_ Black Mirror, United Kingdom, Netflix.
-
-This CSL does not yet support Scriptwriter and Producer fields. If you need to add them, please type manually in the bibliography.
-
-### 8. Internet Movie Clip (item type: TV Broadcast)
-
-| Field       | Required?   | Example                         |
-|-------------|-------------|---------------------------------|
-| Title       | Required    | Matchalatte                     |
-| Director(s) | Required    | Maychaelson, R.                 |
-| Program Title | Optional    |                               |
-| Episode Number | Optional    |                              |
-| Date        | Required    | 2018                            |
-| URL         | Required    | https://www.youtube.com/watch?v=Mb8aeRuAJZw |
-
-This CSL does not yet support Scriptwriter and Producer fields. If you need to add them, please type manually in the bibliography.
-
-### 9. Film
-
-| Field       | Required?   | Example                         |
-|-------------|-------------|---------------------------------|
-| Title       | Required    | Kartini                         |
-| Director(s) | Required    | Bramantyo, Hanung               |
-| Distributor | Required    | Indonesia, Legacy Picture dan Screenplay Films |
-| Date        | Required    | 2017                            |
-| URL         | Required    | https://www.youtube.com/watch?v=Mb8aeRuAJZw |
-
-Example bibliography:
-
-Bramantyo, H. (Sutradara). (2017): _Kartini_, Indonesia, Legacy Picture dan Screenplay Films.
-
-This CSL does not yet support Scriptwriter and Producer fields. If you need to add them, please type manually in the bibliography.
-
-### 10. Artwork (i.e. photo)
-
-| Field       | Required?   | Example                         |
-|-------------|-------------|---------------------------------|
-| Title       | Required    | The eyes have it                |
-| Author(s)   | Required    | Krivic, M.                      |
-| Date        | Required    | 2018                            |
-| Archive     | Required    | Timbuktu, National Geographic   |
-| URL         | Optional    |                                 |
-
-Example bibliography:
-
-Krivic, M. (2018): _The eyes have it_, Timbuktu, National Geographic.
-
-### 11. Patent
+### 6. Patent
 
 | Field             | Required?   | Example                          |
 |-------------------|-------------|----------------------------------|
@@ -328,7 +266,7 @@ Example bibliography:
 
 Wynne, B. M. (2003): _U.S. Patent No. 6,606,963_, Washington, DC, U.S. Patent and Trademark Office. 
 
-### 12. Thesis (including Dissertation)
+### 7. Thesis (including Dissertation)
 
 | Field             | Required?   | Example                          |
 |-------------------|-------------|----------------------------------|
@@ -344,7 +282,33 @@ Example bibliography:
 
 Mayantasari, M. (2011): _Analisis citra radiografi panoramik pada condilus mandibula untuk deteksi dini osteoporosis_ (Disertasi Program Doktor), Institut Teknologi Bandung.
 
-### 13. Magazine Article
+### 8. Report
+
+| Field             | Required?   | Example                          |
+|-------------------|-------------|----------------------------------|
+| Title             | Required    | Kajian potensi mineral ikutan pada pertambangan timah   |
+| Author(s)         | Required    | Pusat Data dan Teknologi Informasi Sumber Daya Energi dan Mineral Kementerian Energi dan Sumber Daya Mineral |
+| Date              | Required    | 2017                             |
+| Pages             | Optional    |                                  |
+| URL               | Optional    |                                  |
+
+### 9. Standard (item type: Report)
+
+| Field             | Required?   | Example                          |
+|-------------------|-------------|----------------------------------|
+| Title             | Required    | Recommended practice for analysis, design, installation, and testing of basic surface safety systems for offshore production platforms (API RP 14C) |
+| Author(s)         | Optional    | American Petroleum Institute     |
+| Place             | Optional    | Washington                       |
+| Institution       | Required    | API Publishing Service           |
+| Date              | Required    | 2001                             |
+| URL               | Optional    |                                  |
+
+Example bibliography:
+
+* Ij, P. (10 Juni 2010): Demokrasi di era otonomi daerah, _Kompas_, hal. 6.
+* Pengelolaan diusulkan satu lembaga. (16 Oktober 2015): _Kompas_, hal. 14.
+
+### 10. Magazine Article
 
 | Field             | Required?   | Example                          |
 |-------------------|-------------|----------------------------------|
@@ -363,17 +327,7 @@ Example bibliography:
 
 Baker, A. A., Sosro, K., dan Suditomo, B. (Mei 1998): Pembakaran hutan di Kalimantan, _Majalah Kehutanan_, **5**, 23–25.
 
-### 14. Report
-
-| Field             | Required?   | Example                          |
-|-------------------|-------------|----------------------------------|
-| Title             | Required    | Kajian potensi mineral ikutan pada pertambangan timah   |
-| Author(s)         | Required    | Pusat Data dan Teknologi Informasi Sumber Daya Energi dan Mineral Kementerian Energi dan Sumber Daya Mineral |
-| Date              | Required    | 2017                             |
-| Pages             | Optional    |                                  |
-| URL               | Optional    |                                  |
-
-### 15. Newspaper Article
+### 11. Newspaper Article
 
 | Field             | Required?   | Example                          |
 |-------------------|-------------|----------------------------------|
@@ -389,23 +343,70 @@ Example bibliography:
 * Ij, P. (10 Juni 2010): Demokrasi di era otonomi daerah, _Kompas_, hal. 6.
 * Pengelolaan diusulkan satu lembaga. (16 Oktober 2015): _Kompas_, hal. 14.
 
-### 16. Standard (item type: Report)
+### 12. Radio Broadcast and TV Broadcast
 
-| Field             | Required?   | Example                          |
-|-------------------|-------------|----------------------------------|
-| Title             | Required    | Recommended practice for analysis, design, installation, and testing of basic surface safety systems for offshore production platforms (API RP 14C) |
-| Author(s)         | Optional    | American Petroleum Institute     |
-| Place             | Optional    | Washington                       |
-| Institution       | Required    | API Publishing Service           |
-| Date              | Required    | 2001                             |
-| URL               | Optional    |                                  |
+| Field       | Required?   | Example                         |
+|-------------|-------------|---------------------------------|
+| Title       | Required    | Arkangel                        |
+| Director(s) | Required    | Foster, J.                     |
+| Program Title | Required    | Black Mirror       |
+| Episode Number | Optional    |                            |
+| Place       | Required    | United Kingdom                  |
+| Network     | Required    | Netflix                         |
+| Date        | Required    | 2016                            |
+| URL         | Optional    |                                 |
 
 Example bibliography:
 
-* Ij, P. (10 Juni 2010): Demokrasi di era otonomi daerah, _Kompas_, hal. 6.
-* Pengelolaan diusulkan satu lembaga. (16 Oktober 2015): _Kompas_, hal. 14.
+Foster, J. (Sutradara). (2016): Arkangel, _dalam_ Black Mirror, United Kingdom, Netflix.
 
-### Personal Communication (including e-mail)
+This CSL does not yet support Scriptwriter and Producer fields. If you need to add them, please type manually in the bibliography.
+
+### 13. Internet Movie Clip (item type: TV Broadcast)
+
+| Field       | Required?   | Example                         |
+|-------------|-------------|---------------------------------|
+| Title       | Required    | Matchalatte                     |
+| Director(s) | Required    | Maychaelson, R.                 |
+| Program Title | Optional    |                               |
+| Episode Number | Optional    |                              |
+| Date        | Required    | 2018                            |
+| URL         | Required    | https://www.youtube.com/watch?v=Mb8aeRuAJZw |
+
+This CSL does not yet support Scriptwriter and Producer fields. If you need to add them, please type manually in the bibliography.
+
+### 14. Film
+
+| Field       | Required?   | Example                         |
+|-------------|-------------|---------------------------------|
+| Title       | Required    | Kartini                         |
+| Director(s) | Required    | Bramantyo, Hanung               |
+| Distributor | Required    | Indonesia, Legacy Picture dan Screenplay Films |
+| Date        | Required    | 2017                            |
+| URL         | Required    | https://www.youtube.com/watch?v=Mb8aeRuAJZw |
+
+Example bibliography:
+
+Bramantyo, H. (Sutradara). (2017): _Kartini_, Indonesia, Legacy Picture dan Screenplay Films.
+
+This CSL does not yet support Scriptwriter and Producer fields. If you need to add them, please type manually in the bibliography.
+
+### 15. Artwork (i.e. photo)
+
+| Field       | Required?   | Example                         |
+|-------------|-------------|---------------------------------|
+| Title       | Required    | The eyes have it                |
+| Author(s)   | Required    | Krivic, M.                      |
+| Date        | Required    | 2018                            |
+| Archive     | Required    | Timbuktu, National Geographic   |
+| URL         | Optional    |                                 |
+
+Example bibliography:
+
+Krivic, M. (2018): _The eyes have it_, Timbuktu, National Geographic.
+
+
+### 16. Personal Communication (including e-mail)
 
 This reference type is not supported by this CSL.
 
