@@ -100,12 +100,12 @@ Baca bagian **Tipe Dokumen dan Field-field yang Didukung** untuk informasi lanju
 
 ## Mencantumkan Sitasi
 
-1. Buat dokumen Word untuk tesis atau disertasi Anda menggunakan [templat dari SPs ITB](http://www.sps.itb.ac.id/in/pedoman-tesis-dan-disertasi/).
+1. Buat dokumen Word untuk tesis atau disertasi Anda menggunakan [_template_ dari SPs ITB](http://www.sps.itb.ac.id/in/pedoman-tesis-dan-disertasi/).
 
 2. Di **Zotero** _ribbon tab_, klik **Document Preferences**.
 
    a. Di **Citation Style**, pilih **Institut Teknologi Bandung - Sekolah Pascasarjana**.
-   b. Di **Language**, pilih **Bahasa Indonesia** atau **English** berdasarkan bahasa yang digunakan tesis atau disertasi Anda.
+   b. Di **Language**, pilih **Bahasa Indonesia** atau **English** berdasarkan bahasa yang digunakan tesis atau disertasi Anda. Kemudian klik **OK**.
 
 3. Posisikan kursor di tempat Anda ingin mencantumkan sitasi, klik **Zotero > Add/Edit Citation**.
 
@@ -139,64 +139,64 @@ Zotero secara otomatis berusaha mengisi detail dokumen, namun informasi ini belu
 
 Berikut adalah semua tipe dokumen dan field-field yang didukung oleh CSL ini, dan cara penggunaannya.
 
-### 1. Book (buku)
+### 1. Book / Buku
 
 | Field      | Required? | Contoh                          |
 |------------|-----------|---------------------------------|
-| Title      | Required  | Principles of measurement system |
-| Author(s)  | Required  | Bentley, John P.                |
-| Editor(s)  | Optional  |                                 |
-| Date       | Required  | 1995                            |
-| Place      | Required  | New York, NY                    |
-| Publisher  | Required  | John Wiley & Sons               |
-| # of Pages | Optional  |                                 |
-| Edition    | Optional  | 3rd                             |
-| Volume     | Optional  |                                 |
+| Title / Judul     | Diperlukan| Principles of measurement system |
+| Author(s) / Penulis  | Diperlukan| Bentley, John P.                |
+| Editor(s)  | Opsional  |                                 |
+| Date / Tanggal | Diperlukan| 1995                            |
+| Place / Tempat | Diperlukan| New York, NY                    |
+| Publisher / Penerbit | Diperlukan| John Wiley & Sons               |
+| # of Pages / # halaman  | Opsional  |                                 |
+| Edition / Edisi      | Opsional  | 3rd                             |
+| Volume     | Opsional  |                                 |
 
 Contoh daftar pustaka:
 
 Bentley, J. P. (1995): _Principles of measurement system_ (3rd ed.), New York, NY, John Wiley & Sons.
 
-### 2. Book Section
+### 2. Book Section / Seksi Buku
 
 | Field      | Required? | Contoh                          |
 |------------|-----------|---------------------------------|
-| Title      | Required  | Validation of instrument measuring continuous variable in medicine |
-| Author(s)  | Required  | Zaki, Rafdzah                   |
-| Editor(s)  | Optional  | Hokimoto, Tsukasa               |
-| Book Title | Required  | Advances in statistical methodologies and their application to real problems |
-| Date       | Required  | 2017                            |
-| Place      | Required  | London                          |
-| Publisher  | Required  | IntechOpen                      |
-| Pages      | Optional  | 217-237                         |
-| Edition    | Optional  |                                 |
-| Volume     | Optional  |                                 |
+| Title / Judul      | Diperlukan| Validation of instrument measuring continuous variable in medicine |
+| Author(s) / Penulis  | Diperlukan| Zaki, Rafdzah                   |
+| Editor(s)  | Opsional  | Hokimoto, Tsukasa               |
+| Book Title | Diperlukan| Advances in statistical methodologies and their application to real problems |
+| Date / Tanggal | Diperlukan| 2017                            |
+| Place / Tempat | Diperlukan| London                          |
+| Publisher / Penerbit | Diperlukan| IntechOpen                      |
+| Pages / Halaman| Opsional  | 217-237                         |
+| Edition / Edisi      | Opsional  |                                 |
+| Volume     | Opsional  |                                 |
 
 Contoh daftar pustaka:
 
-Zaki, R. (2017): Validation of instrument measuring continuous variable in medicine, _dalam_ T. Hokimoto, ed., _Advances in statistical methodologies and their application to real problems_, London, IntechOpen, 217–237.
+Zaki, R. (2017): Validation of instrument measuring continuous variable in medicine _dalam_ T. Hokimoto, ed., _Advances in statistical methodologies and their application to real problems_, London, IntechOpen, 217–237.
 
-### 3. E-book (item type: Book)
+### 3. E-book (item type: Book / Buku)
 
 | Field      | Required? | Contoh                          |
 |------------|-----------|---------------------------------|
-| Title      | Required  | Medical instrumentation: application and design |
-| Author(s)  | Required  | Webster, John G.                |
-| Editor(s)  | Optional  |                                 |
-| Date       | Required  | 2009                            |
-| URL        | Required  | https://books.google.co.id/     |
-| Place      | Optional  |                                 |
-| Publisher  | Optional  |                                 |
-| # of Pages | Optional  |                                 |
-| Edition    | Optional  | 4th                             |
-| Volume     | Optional  |                                 |
+| Title / Judul      | Diperlukan| Medical instrumentation: application and design |
+| Author(s) / Penulis  | Diperlukan| Webster, John G.                |
+| Editor(s)  | Opsional  |                                 |
+| Date / Tanggal | Diperlukan| 2009                            |
+| URL        | Diperlukan| https://books.google.co.id/     |
+| Place / Tempat | Opsional  |                                 |
+| Publisher / Penerbit | Opsional  |                                 |
+| # of Pages / # halaman  | Opsional  |                                 |
+| Edition / Edisi      | Opsional  | 4th                             |
+| Volume     | Opsional  |                                 |
 
-### 4. Journal Article (artikel di jurnal)
+### 4. Journal Article / Artikel Jurnal
 
-| Field       | Required?   | Contoh                          |
+| Field       | Diperlukan? | Contoh                          |
 |-------------|-------------|---------------------------------|
-| Title       | Required    | Scanning X-ray microscopy with large solid angle X-ray fluorescence detection at the XUV beamline P04, DESY |
-| Author(s)   | Required    | Andrianov, K.                   |
+| Title / Judul       | Diperlukan  | Scanning X-ray microscopy with large solid angle X-ray fluorescence detection at the XUV beamline P04, DESY |
+| Author(s) / Penulis   | Diperlukan  | Andrianov, K.                   |
 |             |             | Haidl, A.                       |
 |             |             | Lühl, L.                        |
 |             |             | Dehlinger, A.                   |
@@ -205,64 +205,64 @@ Zaki, R. (2017): Validation of instrument measuring continuous variable in medic
 |             |             | Nisius, T.                      |
 |             |             | Kanngießer, B.                  |
 |             |             | Wilhein, T.                     |
-| Publication | Required    | Journal of Instrumentation      |
-| Volume      | Optional    | 13                              |
-| Issue       | Optional    |                                 |
-| Pages       | Optional    |                                 |
-| Date        | Required    | 2008                            |
+| Publication / Publikasi | Diperlukan  | Journal of Instrumentation      |
+| Volume      | Opsional    | 13                              |
+| Issue / Isu | Opsional    |                                 |
+| Pages / Halaman | Opsional    |                                 |
+| Date / Tanggal  | Diperlukan  | 2008                            |
 | DOI         | Recommended | 10.1088/1742-6596/849/1/012007  |
-| URL         | Optional    | http://iopscience.iop.org/1742-6596/849/1/012007/ |
+| URL         | Opsional    | http://iopscience.iop.org/1742-6596/849/1/012007/ |
 
 Contoh daftar pustaka:
 
 Andrianov, K., Haidl, A., Lühl, L., Dehlinger, A., Dierks, H., Gnewkow, R., Nisius, T., Kanngießer, B., dan Wilhein, T. (2018): Scanning X-ray microscopy with large solid angle X-ray fluorescence detection at the XUV beamline P04, DESY, _Journal of Instrumentation_, **13**. https://doi.org/10.1088/1742-6596/849/1/012007
 
-### 4. Conference Paper (paper konferensi)
+### 4. Conference Paper / Dokumen Konferensi
 
-| Field       | Required?   | Contoh                          |
+| Field       | Diperlukan? | Contoh                          |
 |-------------|-------------|---------------------------------|
-| Title       | Required    | Review of computer assisted diagnosis to analyze the MRI (Magnetic Resource Image) and detect Alzheimer disease |
-| Author(s)   | Required    | Rabeh, Amira Ben                |
+| Title / Judul       | Diperlukan  | Review of computer assisted diagnosis to analyze the MRI (Magnetic Resource Image) and detect Alzheimer disease |
+| Author(s) / Penulis   | Diperlukan  | Rabeh, Amira Ben                |
 |             |             | Benzarti, Faouzi                |
 |             |             | Amiri, Hamid                    |
-| Proceedings Title | Required    | 2017 14th International Conference on Computer Graphics, Imaging and Visualization      |
-| Publisher   | Required    | IEEE                            |
-| Volume      | Optional    |                                 |
-| Pages       | Optional    | 117-121                         |
-| Date        | Required    | 2017-05                         |
+| Proceedings Title | Diperlukan  | 2017 14th International Conference on Computer Graphics, Imaging and Visualization      |
+| Publisher / Penerbit  | Diperlukan  | IEEE                            |
+| Volume      | Opsional    |                                 |
+| Pages / Halaman | Opsional    | 117-121                         |
+| Date / Tanggal  | Diperlukan  | 2017-05                         |
 | DOI         | Recommended | 10.1109/CGiV.2017.21            |
-| URL         | Optional    | https://ieeexplore.ieee.org/document/8361554/ |
+| URL         | Opsional    | https://ieeexplore.ieee.org/document/8361554/ |
 
 Contoh daftar pustaka:
 
 Rabeh, A. B., Benzarti, F., dan Amiri, H. (2017): Review of computer assisted diagnosis to analyze the MRI (Magnetic Resource Image) and detect Alzheimer disease, _2017 14th International Conference on Computer Graphics, Imaging and Visualization_, IEEE, 117–121. https://doi.org/10.1109/CGiV.2017.21
 
-### 5. Webpage (item type: Document)
+### 5. Webpage / Laman Web
 
-| Field       | Required?   | Contoh                          |
+Catatan: Untuk menggunakan jenis item ini, buat dulu dengan tipe Document / Dokumen, lalu ubah _Item Type_ (Jenis Item) menjadi Webpage / Laman Web.
+
+| Field       | Diperlukan? | Contoh                          |
 |-------------|-------------|---------------------------------|
-| Title       | Required    | Ultrasonic Detection – Basics & Application |
-| Author(s)   | Required    | Agarwal, Tarun                  |
-| Proceedings Title | Required    | 2017 14th International Conference on Computer Graphics, Imaging and Visualization      |
-| Publisher   | Optional    |                                 |
-| Date        | Required    | 2015                            |
-| URL         | Required    | https://www.elprocus.com/ultrasonic-detection-basics-application/ |
+| Title / Judul       | Diperlukan  | Ultrasonic detection – basics & application |
+| Author(s) / Penulis   | Diperlukan  | Agarwal, Tarun                  |
+| Date / Tanggal  | Diperlukan  | 2015                            |
+| URL         | Diperlukan  | https://www.elprocus.com/ultrasonic-detection-basics-application/ |
 
 Contoh daftar pustaka:
 
-Agarwal, T. (2015): Ultrasonic Detection – Basics & Application, diperoleh melalui situs internet: https://www.elprocus.com/ultrasonic-detection-basics-application/.
+Agarwal, T. (2015): Ultrasonic detection – basics & application, diperoleh melalui situs internet: https://www.elprocus.com/ultrasonic-detection-basics-application/.
 
-### 6. Patent
+### 6. Patent / Paten
 
-| Field             | Required?   | Contoh                           |
+| Field             | Diperlukan? | Contoh                           |
 |-------------------|-------------|----------------------------------|
-| Patent Number     | Required    | U.S. Patent No. 6,606,963        |
-| Title             | Optional    |                                  |
-| Inventor(s)       | Required    | Wynne, B. M.                     |
-| Place             | Required    | Washington, DC                   |
-| Issuing Authority | Required    | U.S. Patent and Trademark Office |
-| Issue Date        | Required    | 2003                             |
-| URL               | Optional    | https://patents.google.com/patent/US6606963B1/en |
+| Patent Number / Nomor Paten | Diperlukan  | U.S. Patent No. 6,606,963        |
+| Title / Judul     | Opsional    |                                  |
+| Inventor(s) / Penemu | Diperlukan  | Wynne, B. M.                     |
+| Place / Tempat        | Diperlukan  | Washington, DC                   |
+| Issuing Authority / Otoritas yang Mengeluarkan | Diperlukan  | U.S. Patent and Trademark Office |
+| Issue Date / Tanggal Keluar | Diperlukan  | 2003                             |
+| URL               | Opsional    | https://patents.google.com/patent/US6606963B1/en |
 
 Contoh daftar pustaka:
 
@@ -270,40 +270,43 @@ Wynne, B. M. (2003): _U.S. Patent No. 6,606,963_, Washington, DC, U.S. Patent an
 
 ### 7. Thesis (including Dissertation)
 
-| Field             | Required?   | Contoh                           |
+| Field             | Diperlukan? | Contoh                           |
 |-------------------|-------------|----------------------------------|
-| Title             | Required    | Analisis citra radiografi panoramik pada condilus mandibula untuk deteksi dini osteoporosis |
-| Author(s)         | Required    | Mayantasari, Menasita            |
-| Place             | Optional    |                                  |
-| Type              | Optional    | Disertasi Program Doktor         |
-| University        | Required    | Institut Teknologi Bandung       |
-| Date              | Required    | 2011                             |
-| URL               | Optional    |                                  |
+| Title / Judul             | Diperlukan  | Analisis citra radiografi panoramik pada condilus mandibula untuk deteksi dini osteoporosis |
+| Author(s) / Penulis         | Diperlukan  | Mayantasari, Menasita            |
+| Place / Tempat        | Opsional    |                                  |
+| Type / Jenis      | Opsional    | Disertasi Program Doktor         |
+| University / Universitas | Diperlukan  | Institut Teknologi Bandung       |
+| Date / Tanggal        | Diperlukan  | 2011                             |
+| URL               | Opsional    |                                  |
 
 Contoh daftar pustaka:
 
-Mayantasari, M. (2011): _Analisis citra radiografi panoramik pada condilus mandibula untuk deteksi dini osteoporosis_ (Disertasi Program Doktor), Institut Teknologi Bandung.
+Mayantasari, M. (2011): _Analisis citra radiografi panoramik pada condilus mandibula untuk deteksi dini osteoporosis_, Disertasi Program Doktor, Institut Teknologi Bandung.
 
 ### 8. Report
 
-| Field             | Required?   | Contoh                           |
+| Field             | Diperlukan? | Contoh                           |
 |-------------------|-------------|----------------------------------|
-| Title             | Required    | Kajian potensi mineral ikutan pada pertambangan timah   |
-| Author(s)         | Required    | Pusat Data dan Teknologi Informasi Sumber Daya Energi dan Mineral Kementerian Energi dan Sumber Daya Mineral |
-| Date              | Required    | 2017                             |
-| Pages             | Optional    |                                  |
-| URL               | Optional    |                                  |
+| Title / Judul             | Diperlukan  | Kajian potensi mineral ikutan pada pertambangan timah   |
+| Author(s) / Penulis         | Diperlukan  | Pusat Data dan Teknologi Informasi Sumber Daya Energi dan Mineral Kementerian Energi dan Sumber Daya Mineral |
+| Date / Tanggal        | Diperlukan  | 2017                             |
+| Place / Tempat        | Opsional    |                                  |
+| Institution / Institusi | Opsional    |                                  |
+| Pages / Halaman       | Opsional    |                                  |
+| URL               | Opsional    |                                  |
 
 ### 9. Standard (item type: Report)
 
-| Field             | Required?   | Contoh                           |
+| Field             | Diperlukan? | Contoh                           |
 |-------------------|-------------|----------------------------------|
-| Title             | Required    | Recommended practice for analysis, design, installation, and testing of basic surface safety systems for offshore production platforms (API RP 14C) |
-| Author(s)         | Optional    | American Petroleum Institute     |
-| Place             | Optional    | Washington                       |
-| Institution       | Required    | API Publishing Service           |
-| Date              | Required    | 2001                             |
-| URL               | Optional    |                                  |
+| Title / Judul             | Diperlukan  | Recommended practice for analysis, design, installation, and testing of basic surface safety systems for offshore production platforms |
+| Author(s) / Penulis         | Opsional    | American Petroleum Institute     |
+| Report Number / Nomor Laporan | Opsional    | API RP 14C                       |
+| Place / Tempat        | Opsional    | Washington                       |
+| Institution / Institusi | Diperlukan  | API Publishing Service           |
+| Date / Tanggal        | Diperlukan  | 2001                             |
+| URL               | Opsional    |                                  |
 
 Contoh daftar pustaka:
 
@@ -312,18 +315,18 @@ Contoh daftar pustaka:
 
 ### 10. Magazine Article (artikel majalah)
 
-| Field             | Required?   | Contoh                           |
+| Field             | Diperlukan? | Contoh                           |
 |-------------------|-------------|----------------------------------|
-| Title             | Required    | Pembakaran hutan di Kalimantan   |
-| Author(s)         | Required    | Baker, A. A.                     |
+| Title / Judul             | Diperlukan  | Pembakaran hutan di Kalimantan   |
+| Author(s) / Penulis         | Diperlukan  | Baker, A. A.                     |
 |                   |             | Sosro, K.                        |
 |                   |             | Suditomo, B.                     |
-| Publication       | Required    | Majalah Kehutanan                |
-| Volume            | Optional    | 5                                |
-| Issue             | Optional    | 5                                |
-| Date              | Required    | 1998-05                          |
-| Pages             | Optional    | 23-25                            |
-| URL               | Optional    |                                  |
+| Publication / Publikasi       | Diperlukan  | Majalah Kehutanan                |
+| Volume            | Opsional    | 5                                |
+| Issue / Isu       | Opsional    | 5                                |
+| Date / Tanggal        | Diperlukan  | 1998-05                          |
+| Pages / Halaman       | Opsional    | 23-25                            |
+| URL               | Opsional    |                                  |
 
 Contoh daftar pustaka:
 
@@ -331,32 +334,32 @@ Baker, A. A., Sosro, K., dan Suditomo, B. (Mei 1998): Pembakaran hutan di Kalima
 
 ### 11. Newspaper Article
 
-| Field             | Required?   | Contoh                           |
+| Field             | Diperlukan? | Contoh                           |
 |-------------------|-------------|----------------------------------|
-| Title             | Required    | Demokrasi di era otonomi daerah  |
-| Author(s)         | Optional    | Ij, Piliang                      |
-| Publication       | Required    | Kompas                           |
-| Date              | Required    | 2010-06                          |
-| Pages             | Optional    | 6                                |
-| URL               | Optional    |                                  |
+| Title / Judul             | Diperlukan  | Demokrasi di era otonomi daerah  |
+| Author(s) / Penulis         | Opsional    | Ij, Piliang                      |
+| Publication / Publikasi       | Diperlukan  | Kompas                           |
+| Date / Tanggal        | Diperlukan  | 2010-06                          |
+| Pages / Halaman       | Opsional    | 6                                |
+| URL               | Opsional    |                                  |
 
 Contoh daftar pustaka:
 
 * Ij, P. (10 Juni 2010): Demokrasi di era otonomi daerah, _Kompas_, hal. 6.
 * Pengelolaan diusulkan satu lembaga. (16 Oktober 2015): _Kompas_, hal. 14.
 
-### 12. Radio Broadcast and TV Broadcast
+### 12. Radio Broadcast, TV Broadcast / Siaran TV, Siaran Radio
 
-| Field       | Required?   | Contoh                          |
+| Field       | Diperlukan? | Contoh                          |
 |-------------|-------------|---------------------------------|
-| Title       | Required    | Arkangel                        |
-| Director(s) | Required    | Foster, J.                     |
-| Program Title | Required    | Black Mirror       |
-| Episode Number | Optional    |                            |
-| Place       | Required    | United Kingdom                  |
-| Network     | Required    | Netflix                         |
-| Date        | Required    | 2016                            |
-| URL         | Optional    |                                 |
+| Title / Judul       | Diperlukan  | Arkangel                        |
+| Director(s) / Sutradara | Diperlukan  | Foster, J.                     |
+| Program Title / Judul Program | Diperlukan  | Black Mirror       |
+| Episode Number / Nomor Episode | Opsional    |                            |
+| Place / Tempat  | Diperlukan  | United Kingdom                  |
+| Network / Jaringan | Diperlukan  | Netflix                         |
+| Date / Tanggal  | Diperlukan  | 2016                            |
+| URL         | Opsional    |                                 |
 
 Contoh daftar pustaka:
 
@@ -364,28 +367,28 @@ Foster, J. (Sutradara). (2016): Arkangel, _dalam_ Black Mirror, United Kingdom, 
 
 CSL ini belum mendukung _field_ Scriptwriter (penulis) dan Producer (produser). Bila Anda membutuhkannya, mohon menuliskannya secara manual di daftar pustaka.
 
-### 13. Internet Movie Clip (item type: TV Broadcast)
+### 13. Internet Movie Clip (item type: TV Broadcast / Siaran TV)
 
-| Field       | Required?   | Contoh                          |
+| Field       | Diperlukan? | Contoh                          |
 |-------------|-------------|---------------------------------|
-| Title       | Required    | Matchalatte                     |
-| Director(s) | Required    | Maychaelson, R.                 |
-| Program Title | Optional    |                               |
-| Episode Number | Optional    |                              |
-| Date        | Required    | 2018                            |
-| URL         | Required    | https://www.youtube.com/watch?v=Mb8aeRuAJZw |
+| Title / Judul       | Diperlukan  | Matchalatte                     |
+| Director(s) / Sutradara | Diperlukan  | Maychaelson, R.                 |
+| Program Title / Judul Program | Opsional    |                               |
+| Episode Number / Nomor Episode | Opsional    |                            |
+| Date / Tanggal  | Diperlukan  | 2018                            |
+| URL         | Diperlukan  | https://www.youtube.com/watch?v=Mb8aeRuAJZw |
 
 CSL ini belum mendukung _field_ Scriptwriter (penulis) dan Producer (produser). Bila Anda membutuhkannya, mohon menuliskannya secara manual di daftar pustaka.
 
 ### 14. Film
 
-| Field       | Required?   | Contoh                          |
+| Field       | Diperlukan? | Contoh                          |
 |-------------|-------------|---------------------------------|
-| Title       | Required    | Kartini                         |
-| Director(s) | Required    | Bramantyo, Hanung               |
-| Distributor | Required    | Indonesia, Legacy Picture dan Screenplay Films |
-| Date        | Required    | 2017                            |
-| URL         | Required    | https://www.youtube.com/watch?v=Mb8aeRuAJZw |
+| Title / Judul       | Diperlukan  | Kartini                         |
+| Director(s) / Sutradara | Diperlukan  | Bramantyo, Hanung               |
+| Distributor | Diperlukan  | Indonesia, Legacy Picture dan Screenplay Films |
+| Date / Tanggal  | Diperlukan  | 2017                            |
+| URL         | Diperlukan  | https://www.youtube.com/watch?v=Mb8aeRuAJZw |
 
 Contoh daftar pustaka:
 
@@ -393,30 +396,32 @@ Bramantyo, H. (Sutradara). (2017): _Kartini_, Indonesia, Legacy Picture dan Scre
 
 CSL ini belum mendukung _field_ Scriptwriter (penulis) dan Producer (produser). Bila Anda membutuhkannya, mohon menuliskannya secara manual di daftar pustaka.
 
-### 15. Artwork (misalnya foto)
+### 15. Artwork (misalnya foto, dari buku, majalah, atau web)
 
-| Field       | Required?   | Contoh                          |
+| Field       | Diperlukan? | Contoh                          |
 |-------------|-------------|---------------------------------|
-| Title       | Required    | The eyes have it                |
-| Author(s)   | Required    | Krivic, M.                      |
-| Date        | Required    | 2018                            |
-| Archive     | Required    | Timbuktu, National Geographic   |
-| URL         | Optional    |                                 |
+| Title / Judul       | Diperlukan  | The eyes have it                |
+| Author(s) / Penulis   | Diperlukan  | Krivic, M.                      |
+| Date / Tanggal  | Diperlukan  | 2018                            |
+| Archive / Arsip | Diperlukan  | Timbuktu, National Geographic   |
+| URL         | Opsional    |                                 |
 
 Contoh daftar pustaka:
 
 Krivic, M. (2018): _The eyes have it_, Timbuktu, National Geographic.
 
 
-### 16. Komunikasi Pribadi (termasuk e-mail)
+### 16. Letter / E-mail (komunikasi pribadi)
 
-Tipe dokumen ini tidak didukung oleh CSL ini.
+| Field       | Diperlukan? | Contoh                          |
+|-------------|-------------|---------------------------------|
+| Author(s) / Penulis   | Diperlukan  | Wibowo, H.                      |
+| Date / Tanggal  | Diperlukan  | 2018-05-22                      |
+| Title / Subject | Opsional    |                  |
 
-Anda perlu menambahkannya secara manual:
+Contoh daftar pustaka:
 
-* Sitasi dalam teks: (Robbins, 2001)
-* Daftar pustaka (bahasa Indonesia): E. Robbins, komunikasi pribadi (4 Januari 2001).
-* Daftar pustaka (bahasa Inggris): E. Robbins, personal communication (January 4, 2001).
+Wibowo, H. (22 Mei 2018): Komunikasi pribadi.
 
 
 ## Kritik dan Saran

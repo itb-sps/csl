@@ -105,7 +105,7 @@ Refer to the later section **Document Types and Supported Fields** for more info
 2. In **Zotero** ribbon tab, click **Document Preferences**.
 
    a. In **Citation Style**, choose **Institut Teknologi Bandung - Sekolah Pascasarjana**.
-   b. In **Language**, select **Bahasa Indonesia** or **English** based on the language of your thesis/dissertation.
+   b. In **Language**, select **Bahasa Indonesia** or **English** based on the language of your thesis/dissertation. Click **OK**.
 
 3. In the place where you want to put the citation, click **Zotero > Add/Edit Citation**.
 
@@ -174,7 +174,7 @@ Bentley, J. P. (1995): _Principles of measurement system_ (3rd ed.), New York, N
 
 Example bibliography:
 
-Zaki, R. (2017): Validation of instrument measuring continuous variable in medicine, _dalam_ T. Hokimoto, ed., _Advances in statistical methodologies and their application to real problems_, London, IntechOpen, 217–237.
+Zaki, R. (2017): Validation of instrument measuring continuous variable in medicine _dalam_ T. Hokimoto, ed., _Advances in statistical methodologies and their application to real problems_, London, IntechOpen, 217–237.
 
 ### 3. E-book (item type: Book)
 
@@ -237,20 +237,20 @@ Example bibliography:
 
 Rabeh, A. B., Benzarti, F., dan Amiri, H. (2017): Review of computer assisted diagnosis to analyze the MRI (Magnetic Resource Image) and detect Alzheimer disease, _2017 14th International Conference on Computer Graphics, Imaging and Visualization_, IEEE, 117–121. https://doi.org/10.1109/CGiV.2017.21
 
-### 5. Webpage (item type: Document)
+### 5. Webpage
+
+Note: To use this item type, create with Document item type, then change _Item Type_ to menjadi Webpage.
 
 | Field       | Required?   | Example                         |
 |-------------|-------------|---------------------------------|
-| Title       | Required    | Ultrasonic Detection – Basics & Application |
+| Title       | Required    | Ultrasonic detection – basics & application |
 | Author(s)   | Required    | Agarwal, Tarun                  |
-| Proceedings Title | Required    | 2017 14th International Conference on Computer Graphics, Imaging and Visualization      |
-| Publisher   | Optional    |                                 |
 | Date        | Required    | 2015                            |
 | URL         | Required    | https://www.elprocus.com/ultrasonic-detection-basics-application/ |
 
 Example bibliography:
 
-Agarwal, T. (2015): Ultrasonic Detection – Basics & Application, diperoleh melalui situs internet: https://www.elprocus.com/ultrasonic-detection-basics-application/.
+Agarwal, T. (2015): Ultrasonic detection – basics & application, diperoleh melalui situs internet: https://www.elprocus.com/ultrasonic-detection-basics-application/.
 
 ### 6. Patent
 
@@ -282,7 +282,7 @@ Wynne, B. M. (2003): _U.S. Patent No. 6,606,963_, Washington, DC, U.S. Patent an
 
 Example bibliography:
 
-Mayantasari, M. (2011): _Analisis citra radiografi panoramik pada condilus mandibula untuk deteksi dini osteoporosis_ (Disertasi Program Doktor), Institut Teknologi Bandung.
+Mayantasari, M. (2011): _Analisis citra radiografi panoramik pada condilus mandibula untuk deteksi dini osteoporosis_, Disertasi Program Doktor, Institut Teknologi Bandung.
 
 ### 8. Report
 
@@ -291,6 +291,8 @@ Mayantasari, M. (2011): _Analisis citra radiografi panoramik pada condilus mandi
 | Title             | Required    | Kajian potensi mineral ikutan pada pertambangan timah   |
 | Author(s)         | Required    | Pusat Data dan Teknologi Informasi Sumber Daya Energi dan Mineral Kementerian Energi dan Sumber Daya Mineral |
 | Date              | Required    | 2017                             |
+| Place             | Optional    |                                  |
+| Institution       | Optional    |                                  |
 | Pages             | Optional    |                                  |
 | URL               | Optional    |                                  |
 
@@ -298,8 +300,9 @@ Mayantasari, M. (2011): _Analisis citra radiografi panoramik pada condilus mandi
 
 | Field             | Required?   | Example                          |
 |-------------------|-------------|----------------------------------|
-| Title             | Required    | Recommended practice for analysis, design, installation, and testing of basic surface safety systems for offshore production platforms (API RP 14C) |
+| Title             | Required    | Recommended practice for analysis, design, installation, and testing of basic surface safety systems for offshore production platforms |
 | Author(s)         | Optional    | American Petroleum Institute     |
+| Report Number     | Optional    | API RP 14C                       |
 | Place             | Optional    | Washington                       |
 | Institution       | Required    | API Publishing Service           |
 | Date              | Required    | 2001                             |
@@ -393,7 +396,7 @@ Bramantyo, H. (Sutradara). (2017): _Kartini_, Indonesia, Legacy Picture dan Scre
 
 This CSL does not yet support Scriptwriter and Producer fields. If you need to add them, please type manually in the bibliography.
 
-### 15. Artwork (i.e. photo)
+### 15. Artwork (i.e. photo, from book, magazine, or website)
 
 | Field       | Required?   | Example                         |
 |-------------|-------------|---------------------------------|
@@ -408,15 +411,17 @@ Example bibliography:
 Krivic, M. (2018): _The eyes have it_, Timbuktu, National Geographic.
 
 
-### 16. Personal Communication (including e-mail)
+### 16. Letter / E-mail (personal communication)
 
-This reference type is not supported by this CSL.
+| Field       | Required?   | Example                         |
+|-------------|-------------|---------------------------------|
+| Author(s)   | Required    | Wibowo, H.                      |
+| Date        | Required    | 2018-05-22                      |
+| Title / Subject | Optional    |                  |
 
-You will need to type them manually:
+Example bibliography:
 
-* Inline citation: (Robbins, 2001)
-* Bibliography (Indonesian): E. Robbins, komunikasi pribadi (4 Januari 2001).
-* Bibliography (English): E. Robbins, personal communication (January 4, 2001).
+Wibowo, H. (22 Mei 2018): Personal communication.
 
 
 ## Feedback
