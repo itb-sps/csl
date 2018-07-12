@@ -120,8 +120,8 @@ The bibliography will be inserted using syntax according to SPs ITB guidelines.
 
 **Important:** you will still need to ensure correct formatting according to [Pedoman Tesis dan Disertasi SPs ITB](http://www.sps.itb.ac.id/in/pedoman-tesis-dan-disertasi/), because the following are not controlled by CSL:
 
-* font and font size
-* paragraph justification
+* font and font size to Times New Roman, size 12 points
+* paragraph justification to _justified_
 
 
 ## More about Zotero
@@ -159,16 +159,31 @@ Bentley, J. P. (1995): _Principles of measurement system_ (3rd ed.), New York, N
 
 ### 2. Book Section
 
+**For book section without editor:**
+
 | Field      | Required? | Example                         |
 |------------|-----------|---------------------------------|
 | Title      | Required  | Validation of instrument measuring continuous variable in medicine |
 | Author(s)  | Required  | Zaki, Rafdzah                   |
-| Editor(s)  | Optional  | Hokimoto, Tsukasa               |
 | Book Title | Required  | Advances in statistical methodologies and their application to real problems |
 | Date       | Required  | 2017                            |
 | Place      | Required  | London                          |
 | Publisher  | Required  | IntechOpen                      |
-| Pages      | Optional  | 217-237                         |
+| Edition    | Optional  |                                 |
+| Volume     | Optional  |                                 |
+
+**For book section with editor:**
+
+| Field      | Required? | Example                         |
+|------------|-----------|---------------------------------|
+| Title      | Required  | Validation of instrument measuring continuous variable in medicine |
+| Author(s)  | Required  | Zaki, Rafdzah                   |
+| Editor(s)  | Required  | Hokimoto, Tsukasa               |
+| Book Title | Required  | Advances in statistical methodologies and their application to real problems |
+| Date       | Required  | 2017                            |
+| Place      | Required  | London                          |
+| Publisher  | Required  | IntechOpen                      |
+| Pages      | Required  | 217-237                         |
 | Edition    | Optional  |                                 |
 | Volume     | Optional  |                                 |
 

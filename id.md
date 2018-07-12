@@ -120,8 +120,8 @@ Daftar Pustaka akan ditambahkan sesuai sintaks SPs ITB.
 
 **Penting:** Anda tetap perlu melakukan penataan sesuai [Pedoman Tesis dan Disertasi SPs ITB](http://www.sps.itb.ac.id/in/pedoman-tesis-dan-disertasi/), karena _formatting_ berikut tidak dikendalikan oleh CSL:
 
-* font dan ukuran font
-* justifikasi paragraf
+* font dan ukuran font diubah menjadi Times New Roman ukuran 12 _point_
+* justifikasi paragraf diubah menjadi _justified_
 
 
 ## Tentang Zotero
