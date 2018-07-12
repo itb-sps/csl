@@ -174,7 +174,7 @@ Bentley, J. P. (1995): _Principles of measurement system_ (3rd ed.), New York, N
 
 Example bibliography:
 
-Zaki, R. (2017): Validation of instrument measuring continuous variable in medicine _dalam_ T. Hokimoto, ed., _Advances in statistical methodologies and their application to real problems_, London, IntechOpen, 217–237.
+Zaki, R. (2017): Validation of instrument measuring continuous variable in medicine, 217–237 _dalam_ T. Hokimoto, ed., _Advances in statistical methodologies and their application to real problems_, IntechOpen, London.
 
 ### 3. E-book (item type: Book)
 
