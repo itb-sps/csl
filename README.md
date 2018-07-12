@@ -145,7 +145,7 @@ Below you will find all document types and fields supported by this CSL, and how
 |------------|-----------|---------------------------------|
 | Title      | Required  | Principles of measurement system |
 | Author(s)  | Required  | Bentley, John P.                |
-| Editor(s)  | Optional  |                                 |
+| Editor(s)  | Must be empty  |                                 |
 | Date       | Required  | 1995                            |
 | Place      | Required  | New York, NY                    |
 | Publisher  | Required  | John Wiley & Sons               |
@@ -158,21 +158,6 @@ Example bibliography:
 Bentley, J. P. (1995): _Principles of measurement system_ (3rd ed.), New York, NY, John Wiley & Sons.
 
 ### 2. Book Section
-
-**For book section without editor:**
-
-| Field      | Required? | Example                         |
-|------------|-----------|---------------------------------|
-| Title      | Required  | Validation of instrument measuring continuous variable in medicine |
-| Author(s)  | Required  | Zaki, Rafdzah                   |
-| Book Title | Required  | Advances in statistical methodologies and their application to real problems |
-| Date       | Required  | 2017                            |
-| Place      | Required  | London                          |
-| Publisher  | Required  | IntechOpen                      |
-| Edition    | Optional  |                                 |
-| Volume     | Optional  |                                 |
-
-**For book section with editor:**
 
 | Field      | Required? | Example                         |
 |------------|-----------|---------------------------------|

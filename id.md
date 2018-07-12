@@ -145,7 +145,7 @@ Berikut adalah semua tipe dokumen dan field-field yang didukung oleh CSL ini, da
 |------------|-----------|---------------------------------|
 | Title / Judul     | Diperlukan| Principles of measurement system |
 | Author(s) / Penulis  | Diperlukan| Bentley, John P.                |
-| Editor(s)  | Wajib bila ada |                                 |
+| Editor(s)  | Wajib dikosongkan |                                 |
 | Date / Tanggal | Diperlukan| 1995                            |
 | Place / Tempat | Diperlukan| New York, NY                    |
 | Publisher / Penerbit | Diperlukan| John Wiley & Sons               |
@@ -158,21 +158,6 @@ Contoh daftar pustaka:
 Bentley, J. P. (1995): _Principles of measurement system_ (3rd ed.), New York, NY, John Wiley & Sons.
 
 ### 2. Book Section / Seksi Buku
-
-**Untuk seksi buku tanpa editor:**
-
-| Field      | Required? | Contoh                          |
-|------------|-----------|---------------------------------|
-| Title / Judul      | Diperlukan| Validation of instrument measuring continuous variable in medicine |
-| Author(s) / Penulis  | Diperlukan| Zaki, Rafdzah                   |
-| Book Title | Diperlukan| Advances in statistical methodologies and their application to real problems |
-| Date / Tanggal | Diperlukan| 2017                            |
-| Place / Tempat | Diperlukan| London                          |
-| Publisher / Penerbit | Diperlukan| IntechOpen                      |
-| Edition / Edisi      | Opsional  |                                 |
-| Volume     | Opsional  |                                 |
-
-**Untuk seksi buku dengan editor:**
 
 | Field      | Required? | Contoh                          |
 |------------|-----------|---------------------------------|
@@ -189,7 +174,7 @@ Bentley, J. P. (1995): _Principles of measurement system_ (3rd ed.), New York, N
 
 Contoh daftar pustaka:
 
-Zaki, R. (2017): Validation of instrument measuring continuous variable in medicine _dalam_ T. Hokimoto, ed., _Advances in statistical methodologies and their application to real problems_, London, IntechOpen, 217–237.
+Zaki, R. (2017): Validation of instrument measuring continuous variable in medicine, 217–237 _dalam_ T. Hokimoto, ed., _Advances in statistical methodologies and their application to real problems_, IntechOpen, London.
 
 ### 3. E-book (item type: Book / Buku)
 
