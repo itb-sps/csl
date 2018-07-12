@@ -145,7 +145,7 @@ Berikut adalah semua tipe dokumen dan field-field yang didukung oleh CSL ini, da
 |------------|-----------|---------------------------------|
 | Title / Judul     | Diperlukan| Principles of measurement system |
 | Author(s) / Penulis  | Diperlukan| Bentley, John P.                |
-| Editor(s)  | Opsional  |                                 |
+| Editor(s)  | Wajib bila ada |                                 |
 | Date / Tanggal | Diperlukan| 1995                            |
 | Place / Tempat | Diperlukan| New York, NY                    |
 | Publisher / Penerbit | Diperlukan| John Wiley & Sons               |
@@ -159,16 +159,31 @@ Bentley, J. P. (1995): _Principles of measurement system_ (3rd ed.), New York, N
 
 ### 2. Book Section / Seksi Buku
 
+**Untuk seksi buku tanpa editor:**
+
 | Field      | Required? | Contoh                          |
 |------------|-----------|---------------------------------|
 | Title / Judul      | Diperlukan| Validation of instrument measuring continuous variable in medicine |
 | Author(s) / Penulis  | Diperlukan| Zaki, Rafdzah                   |
-| Editor(s)  | Opsional  | Hokimoto, Tsukasa               |
 | Book Title | Diperlukan| Advances in statistical methodologies and their application to real problems |
 | Date / Tanggal | Diperlukan| 2017                            |
 | Place / Tempat | Diperlukan| London                          |
 | Publisher / Penerbit | Diperlukan| IntechOpen                      |
-| Pages / Halaman| Opsional  | 217-237                         |
+| Edition / Edisi      | Opsional  |                                 |
+| Volume     | Opsional  |                                 |
+
+**Untuk seksi buku dengan editor:**
+
+| Field      | Required? | Contoh                          |
+|------------|-----------|---------------------------------|
+| Title / Judul      | Diperlukan| Validation of instrument measuring continuous variable in medicine |
+| Author(s) / Penulis  | Diperlukan| Zaki, Rafdzah                   |
+| Editor(s)  | Diperlukan | Hokimoto, Tsukasa               |
+| Book Title | Diperlukan| Advances in statistical methodologies and their application to real problems |
+| Date / Tanggal | Diperlukan| 2017                            |
+| Place / Tempat | Diperlukan| London                          |
+| Publisher / Penerbit | Diperlukan| IntechOpen                      |
+| Pages / Halaman| Diperlukan | 217-237                         |
 | Edition / Edisi      | Opsional  |                                 |
 | Volume     | Opsional  |                                 |
 

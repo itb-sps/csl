@@ -1,0 +1,1319 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Article rdf:about="#item_1244">
+        <z:itemType>magazineArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Periodical>
+                <prism:volume>5</prism:volume>
+                <dc:title>Majalah Kehutanan</dc:title>
+            </bib:Periodical>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Baker</foaf:surname>
+                        <foaf:givenname>A. A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sosro</foaf:surname>
+                        <foaf:givenname>K.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Suditomo</foaf:surname>
+                        <foaf:givenname>B.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:pages>23-25</bib:pages>
+        <dc:date>1998-05</dc:date>
+        <dc:description>Citation Key: Baker1998</dc:description>
+        <dc:title>Pembakaran hutan di Kalimantan</dc:title>
+    </bib:Article>
+    <bib:Article rdf:about="http://dx.doi.org/10.1016/j.optlaseng.2009.03.008">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:01438166"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenname>Song</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>3D scanning</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>3D shape measurement</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Digital fringe projection</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Fringe analysis</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Optical metrology</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Range scanning</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Real time</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://dx.doi.org/10.1016/j.optlaseng.2009.03.008</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>149-158</bib:pages>
+        <dc:date>2010</dc:date>
+        <dc:description>PMID: 3
+Publisher: Elsevier
+Citation Key: Zhang2010
+ISBN: 0143-8166</dc:description>
+        <dcterms:abstract>Over the past few years, we have been developing techniques for high-speed 3D shape measurement using digital fringe projection and phase-shifting techniques: various algorithms have been developed to improve the phase computation speed, parallel programming has been employed to further increase the processing speed, and advanced hardware technologies have been adopted to boost the speed of coordinate calculations and 3D geometry rendering. We have successfully achieved simultaneous 3D absolute shape acquisition, reconstruction, and display at a speed of 30 frames/s with 300 K points per frame. This paper presents the principles of the real-time 3D shape measurement techniques that we developed, summarizes the most recent progresses that have been made in this field, and discusses the challenges for advancing this technology further. ©2009 Elsevier Ltd. All rights reserved.</dcterms:abstract>
+        <dc:title>Recent progresses on real-time 3D shape measurement using digital fringe projection techniques</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:01438166">
+        <prism:volume>48</prism:volume>
+        <prism:number>2</prism:number>
+        <dc:title>Optics and Lasers in Engineering</dc:title>
+        <dc:identifier>ISSN 01438166</dc:identifier>
+        <dc:identifier>DOI 10.1016/j.optlaseng.2009.03.008</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="#item_1256">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>48</prism:volume>
+                <prism:number>2</prism:number>
+                <dc:title>Advances in Measurement Systems</dc:title>
+                <dc:identifier>ISSN 01438166</dc:identifier>
+                <dc:identifier>DOI 10.1016/j.optlaseng.2009.03.008</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenname>Song</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_1257"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>3D scanning</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>3D shape measurement</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Digital fringe projection</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Fringe analysis</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Optical metrology</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Range scanning</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Real time</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <bib:pages>29-50</bib:pages>
+        <dc:date>2010</dc:date>
+        <dc:description>Citation Key: Zhang2010a
+ISBN: 978-953-307-061-2</dc:description>
+        <dcterms:abstract>Over the past few years, we have been developing techniques for high-speed 3D shape measurement using digital fringe projection and phase-shifting techniques: various algorithms have been developed to improve the phase computation speed, parallel programming has been employed to further increase the processing speed, and advanced hardware technologies have been adopted to boost the speed of coordinate calculations and 3D geometry rendering. We have successfully achieved simultaneous 3D absolute shape acquisition, reconstruction, and display at a speed of 30 frames/s with 300 K points per frame. This paper presents the principles of the real-time 3D shape measurement techniques that we developed, summarizes the most recent progresses that have been made in this field, and discusses the challenges for advancing this technology further.</dcterms:abstract>
+        <dc:title>high-resolution, high-speed 3D Dynamically Deformable Shape Measurement Using Digital Fringe Projection Techniques</dc:title>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_1257">
+        <z:itemType>attachment</z:itemType>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://cdn.intechopen.com/pdfs/9937.pdf%5Cnhttp://linkinghub.elsevier.com/retrieve/pii/S0143816609000529</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:title>PDF</dc:title>
+        <z:linkMode>3</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="http://www.opticsinfobase.org/abstract.cfm?URI=ao-54-13-3834">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:0003-6935"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhang</foaf:surname>
+                        <foaf:givenname>Song</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://www.opticsinfobase.org/abstract.cfm?URI=ao-54-13-3834</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>3834</bib:pages>
+        <dc:date>2015</dc:date>
+        <dc:description>Citation Key: Zhang2015</dc:description>
+        <dcterms:abstract>This paper compares the active and passive projector nonlinear gamma compensation methods for phase error reduction. The active method modifies fringe patterns before their projection to ensure sinusoidality; the passive method, in contrast, compensates for the phase error after capturing those distorted sinusoidal fringe patterns. Our study finds that the active method tends to provide more consistent high-quality fringe patterns regardless of the amount of projectors defocusing; yet the effectiveness of the passive method is diminished if the measurement condition deviates from the calibration condition. Experimental results will be presented to demonstrate the differences between these two nonlinear gamma compensation methods.</dcterms:abstract>
+        <dc:title>Comparative study on passive and active projector nonlinear gamma calibration</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:0003-6935">
+        <prism:volume>54</prism:volume>
+        <prism:number>13</prism:number>
+        <dc:title>Applied Optics</dc:title>
+        <dc:identifier>ISSN 0003-6935</dc:identifier>
+        <dc:identifier>DOI 10.1364/AO.54.003834</dc:identifier>
+    </bib:Journal>
+    <bib:Article rdf:about="http://electronicimaging.spiedigitallibrary.org/article.aspx?doi=10.1117/1.1790508">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1017-9909"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Diallo</foaf:surname>
+                        <foaf:givenname>Mamadou S</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schmitt</foaf:surname>
+                        <foaf:givenname>Doug R</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://electronicimaging.spiedigitallibrary.org/article.aspx?doi=10.1117/1.1790508</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>819</bib:pages>
+        <dc:date>2004</dc:date>
+        <dc:description>Citation Key: Diallo2004</dc:description>
+        <dcterms:abstract>Dual beam electronic speckle interferometers provide raw data in the form of maps of wrapped relative phase or fringe patterns. Interpretation of such fringe patterns is complicated by aliased and random speckle noise. This noise can result in misidentification of the phase at a given point in the image. Automated determination of the loci of fringe extrema, useful for quantitative evaluation, are particularly affected. A nonlinear image filtering technique referred to as mean curvature diffusion is applied to overcome this difficulty. This technique essentially smooths the image without a substantial reduction in the magnitude of the underlying trends that here represent the fringes. Mean curvature diffusion uses calculations analogous to those for the diffusion of heat with the difference that the diffusion coefficient, reminiscent of thermal diffusivity, varies spatially within the image with a value given by the reciprocal of the local surface gradient. At a given point in the image, the rate of surface diffusion depends only on the average value of the normal curvature in any two orthogonal directions and not on its magnitude; this allows the lower frequency underlying components of the image structure to be retained. The method is tested on both calculated and real speckle interferograms to highlight the effectiveness of this smoothing technique relative to more standard smoothing algorithms.</dcterms:abstract>
+        <dc:title>Noise reduction in interferometric fringe patterns with mean curvature diffusion</dc:title>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1017-9909">
+        <prism:volume>13</prism:volume>
+        <prism:number>4</prism:number>
+        <dc:title>Journal of Electronic Imaging</dc:title>
+        <dc:identifier>ISSN 1017-9909</dc:identifier>
+        <dc:identifier>DOI 10.1117/1.1790508</dc:identifier>
+    </bib:Journal>
+    <rdf:Description rdf:about="http://ieeexplore.ieee.org/document/7493756/">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>104</prism:volume>
+                <dc:identifier>DOI 10.1109/JPROC.2016.2571358</dc:identifier>
+                <dc:title>Proceedings of the IEEE</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ronalds</foaf:surname>
+                        <foaf:givenname>Beverley F</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/7493756/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1489-1498</bib:pages>
+        <dc:date>2016-07</dc:date>
+        <dc:description>Citation Key: Ronalds2016
+Issue: 7
+ISSN: 0018-9219</dc:description>
+        <dc:title>Francis Ronalds (1788–1873): The First Electrical Engineer? [Scanning Our Past]</dc:title>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://ieeexplore.ieee.org/document/7467419/">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>104</prism:volume>
+                <dc:identifier>DOI 10.1109/JPROC.2016.2558521</dc:identifier>
+                <dc:title>Proceedings of the IEEE</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zou</foaf:surname>
+                        <foaf:givenname>Yulong</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhu</foaf:surname>
+                        <foaf:givenname>Jia</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenname>Xianbin</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hanzo</foaf:surname>
+                        <foaf:givenname>Lajos</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://ieeexplore.ieee.org/document/7467419/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>1727-1765</bib:pages>
+        <dc:date>2016-09</dc:date>
+        <dc:description>Citation Key: Zou2016
+Issue: 9
+ISSN: 0018-9219</dc:description>
+        <dc:title>A Survey on Wireless Security: Technical Challenges, Recent Advances, and Future Trends</dc:title>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:isbn:978-1-5386-0852-4">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:identifier>ISBN 978-1-5386-0852-4</dc:identifier>
+                <dc:identifier>DOI 10.1109/CGiV.2017.21</dc:identifier>
+                <dc:title>2017 14th International Conference on Computer Graphics, Imaging and Visualization</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>IEEE</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rabeh</foaf:surname>
+                        <foaf:givenname>Amira Ben</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Benzarti</foaf:surname>
+                        <foaf:givenname>Faouzi</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Amiri</foaf:surname>
+                        <foaf:givenname>Hamid</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/document/8361554/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>117-121</bib:pages>
+        <dc:date>2017-05</dc:date>
+        <dc:description>Citation Key: Rabeh2017</dc:description>
+        <dc:title>Review of computer assisted diagnosis to analyze the MRI (Magnetic Resource Image) and detect Alzheimer disease</dc:title>
+    </rdf:Description>
+    <bib:Report rdf:about="#item_1263">
+        <z:itemType>report</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Washington</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>API Publishing Service</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>American Petroleum Institute</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2001</dc:date>
+        <dc:description>Citation Key: AmericanPetroleumInstitute2001
+Place: Washington</dc:description>
+        <prism:number>API RP 14C</prism:number>
+        <dc:title>Recommended practice for analysis, design, installation, and testing of basic surface safety systems for offshore production platforms</dc:title>
+    </bib:Report>
+    <bib:Article rdf:about="#item_1264">
+        <z:itemType>newspaperArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Newspaper><dc:title>Kompas</dc:title></bib:Newspaper>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ij</foaf:surname>
+                        <foaf:givenname>Piliang</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:pages>6</bib:pages>
+        <dc:date>2010-06-10</dc:date>
+        <dc:description>Citation Key: Ij2010</dc:description>
+        <dc:title>Demokrasi di era otonomi daerah</dc:title>
+    </bib:Article>
+    <bib:Report rdf:about="#item_1265">
+        <z:itemType>report</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pusat Data dan Teknologi Informasi Sumber Daya Energi dan Mineral Kementerian Energi dan Sumber Daya Mineral</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:pages>111</bib:pages>
+        <dc:date>2017</dc:date>
+        <dc:description>Citation Key: PusatDatadanTeknologiInformasiSumberDayaEnergidanMineralKementerianEnergidanSumberDayaMineral2017
+ISBN: 9786020836287</dc:description>
+        <dc:title>Kajian potensi mineral ikutan pada pertambangan timah</dc:title>
+    </bib:Report>
+    <rdf:Description rdf:about="https://youtu.be/8m1X26Auw6Q">
+        <z:itemType>document</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>TEDx Talks</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://youtu.be/8m1X26Auw6Q</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2016</dc:date>
+        <dc:description>Citation Key: TEDxTalks2016</dc:description>
+        <dcterms:abstract>In this talk, Dr. Triona McGrath explains how our oceans are changing due to increasing levels of carbon dioxide in the atmosphere and how it will impact our marine life. Triona shares her thoughts on ocean acidification and explain why it is the evil twin of climate change. Dr. Triona McGrath is a Fulbright scholar and post-doctorate research fellow, currently working with the National University of Ireland, Galway and the Marine Institute, Ireland. Her primary area of research is chemical oceanography where she is investigating ocean acidification in Irish marine waters. In 2014, Triona was a Fulbright-Marine Institute Scholar at the Scripps Institute of Oceanography in San Diego. This talk was given at a TEDx event using the TED conference format but independently organized by a local community. Learn more at http://ted.com/tedx</dcterms:abstract>
+        <dc:title>Ocean acidification - the evil twin of climate change | Triona McGrath | TEDxFulbrightDublin</dc:title>
+    </rdf:Description>
+    <bib:Article rdf:about="https://www.vox.com/science-and-health/2018/5/7/17314716/lyme-disease-vaccine-history-effectiveness">
+        <z:itemType>newspaperArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Newspaper><dc:title>Vox.com</dc:title></bib:Newspaper>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Resnick</foaf:surname>
+                        <foaf:givenname>Brian</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.vox.com/science-and-health/2018/5/7/17314716/lyme-disease-vaccine-history-effectiveness</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2018-05</dc:date>
+        <dc:description>Citation Key: Resnick2018</dc:description>
+        <dc:title>Lyme disease vaccine: the frustrating reason there isn’t one for humans - Vox</dc:title>
+    </bib:Article>
+    <bib:Recording rdf:about="#item_1268">
+        <z:itemType>tvBroadcast</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Netflix, United Kingdom</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <z:directors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Foster</foaf:surname>
+                        <foaf:givenname>J</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:directors>
+        <z:scriptwriters>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Brooker, C.</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:scriptwriters>
+        <z:producers>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Brooker, C.</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:producers>
+        <dc:date>2016</dc:date>
+        <dc:description>Citation Key: Foster2016</dc:description>
+        <dc:title>Arkangel</dc:title>
+        <dc:title>Black Mirror</dc:title>
+    </bib:Recording>
+    <bib:Document rdf:about="https://www.bps.go.id/dynamictable/2015/09/18/906/jumlah-desa-kelurahan-menurut-provinsi-dan-letak-geografi-2003---2014.html">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Badan Pusat Statistik</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.bps.go.id/dynamictable/2015/09/18/906/jumlah-desa-kelurahan-menurut-provinsi-dan-letak-geografi-2003---2014.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2015</dc:date>
+        <dc:description>Citation Key: BadanPusatStatistik2015</dc:description>
+        <dc:title>Jumlah desa/kelurahan menurut provinsi dan letak geografi, 2003 - 2014</dc:title>
+    </bib:Document>
+    <bib:Document rdf:about="https://www.elprocus.com/ultrasonic-detection-basics-application/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Agarwal</foaf:surname>
+                        <foaf:givenname>Tarun</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.elprocus.com/ultrasonic-detection-basics-application/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2015</dc:date>
+        <dc:description>Citation Key: Agarwal2015</dc:description>
+        <dc:title>Ultrasonic detection – basics &amp; application</dc:title>
+    </bib:Document>
+    <bib:MotionPicture rdf:about="#item_1271">
+        <z:itemType>film</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <foaf:name>Indonesia, Legacy Picture dan Screenplay Films</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <z:directors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bramantyo</foaf:surname>
+                        <foaf:givenname>Hanung</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:directors>
+        <z:scriptwriters>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bramantyo</foaf:surname>
+                        <foaf:givenname>Hanung</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dramanti</foaf:surname>
+                        <foaf:givenname>B.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:scriptwriters>
+        <z:producers>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                       <foaf:surname>Ronny, R.</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:producers>
+        <dc:date>2017</dc:date>
+        <dc:description>Place: Indonesia
+Citation Key: Bramantyo2017</dc:description>
+        <dc:title>Kartini</dc:title>
+    </bib:MotionPicture>
+    <bib:Recording rdf:about="https://www.youtube.com/watch?v=Mb8aeRuAJZw">
+        <z:itemType>tvBroadcast</z:itemType>
+        <z:directors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Maychaelson</foaf:surname>
+                        <foaf:givenname>R</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:directors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.youtube.com/watch?v=Mb8aeRuAJZw</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2018</dc:date>
+        <dc:description>Citation Key: Maychaelson2018</dc:description>
+        <dc:title>Matchalatte</dc:title>
+    </bib:Recording>
+    <bib:Patent rdf:about="#item_1273">
+        <z:itemType>patent</z:itemType>
+        <z:inventors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fathauer</foaf:surname>
+                        <foaf:givenname>George H</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:inventors>
+        <dc:description>Citation Key: Fathauer1975</dc:description>
+        <prism:number>US3881353A</prism:number>
+        <dc:date>1975-05</dc:date>
+        <dc:title>Ultrasonic sensor</dc:title>
+    </bib:Patent>
+    <bib:Patent rdf:about="https://patents.google.com/patent/US3881353">
+        <z:itemType>patent</z:itemType>
+        <z:inventors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fathauer</foaf:surname>
+                        <foaf:givenname>George H</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:inventors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://patents.google.com/patent/US3881353</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Citation Key: Fathauer1974</dc:description>
+        <prism:number>US3881353A</prism:number>
+        <dc:date>1975-05</dc:date>
+        <dcterms:abstract>The embodiment of the invention disclosed herein is directed to a sensing device for determining the passage of high velocity, relatively small articles such as seeds being planted through high volume automatic planting apparatus used by farmers. The sensing device has a pair of spaced apart ultrasonic transducer elements, one acting as a transmitter and the other acting as a receiver. The driving circuit for the transmitting transducer has a feedback path coupled to the receiving amplifier of the receiving transducer. The pair of transducers, together with their respective driving and receiving circuits, form a closed loop oscillator circuit which includes the air gap between the transmitting and receiving elements. The spacing between the transmitting and receiving elements is maintained an integral number of half wavelengths to provide maximum sensitivity to high velocity small articles passing therebetween.</dcterms:abstract>
+        <dc:title>Ultrasonic sensor</dc:title>
+    </bib:Patent>
+    <bib:Patent rdf:about="#item_1275">
+        <z:itemType>patent</z:itemType>
+        <z:inventors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Law</foaf:surname>
+                        <foaf:givenname>Wing K</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hennige</foaf:surname>
+                        <foaf:givenname>Carl</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fry</foaf:surname>
+                        <foaf:givenname>Frank</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sanghvi</foaf:surname>
+                        <foaf:givenname>Narendra T</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Miller</foaf:surname>
+                        <foaf:givenname>Fred</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kendrick</foaf:surname>
+                        <foaf:givenname>Paul</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>DeMarta</foaf:surname>
+                        <foaf:givenname>Stan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:inventors>
+        <dc:description>Citation Key: Law1995</dc:description>
+        <prism:number>US5762066A</prism:number>
+        <dc:date>1995</dc:date>
+        <dc:title>Multifaceted ultrasound transducer probe system and methods for its use</dc:title>
+    </bib:Patent>
+    <bib:Book rdf:about="urn:isbn:0-582-23779-3">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>John Wiley &amp; Sons</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bentley</foaf:surname>
+                        <foaf:givenname>John P.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <prism:edition>3rd</prism:edition>
+        <dc:identifier>ISBN 0-582-23779-3</dc:identifier>
+        <dc:date>1995</dc:date>
+        <dc:description>Citation Key: Bentley1995</dc:description>
+        <dc:title>Principles of measurement system</dc:title>
+    </bib:Book>
+    <bib:BookSection rdf:about="#item_1277">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>Advances in statistical methodologies and their application to real problems</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>London</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IntechOpen</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zaki</foaf:surname>
+                        <foaf:givenname>Rafdzah</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hokimoto</foaf:surname>
+                        <foaf:givenname>Tsukasa</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:pages>217-237</bib:pages>
+        <dc:date>2017</dc:date>
+        <dc:description>Citation Key: Zaki2017</dc:description>
+        <dc:title>Validation of instrument measuring continuous variable in medicine</dc:title>
+    </bib:BookSection>
+    <bib:Article rdf:about="http://iopscience.iop.org/1742-6596/849/1/012007/">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>13</prism:volume>
+                <dc:title>Journal of Instrumentation</dc:title>
+                <dc:identifier>DOI 10.1088/1742-6596/849/1/012007</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Andrianov</foaf:surname>
+                        <foaf:givenname>K</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Haidl</foaf:surname>
+                        <foaf:givenname>A</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lühl</foaf:surname>
+                        <foaf:givenname>L</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dehlinger</foaf:surname>
+                        <foaf:givenname>A</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dierks</foaf:surname>
+                        <foaf:givenname>H</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gnewkow</foaf:surname>
+                        <foaf:givenname>R</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nisius</foaf:surname>
+                        <foaf:givenname>T</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kanngießer</foaf:surname>
+                        <foaf:givenname>B</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wilhein</foaf:surname>
+                        <foaf:givenname>T</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://iopscience.iop.org/1742-6596/849/1/012007/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2018</dc:date>
+        <dc:description>Citation Key: Andrianov2018</dc:description>
+        <dc:title>Scanning X-ray microscopy with large solid angle X-ray fluorescence detection at the XUV beamline P04, DESY</dc:title>
+    </bib:Article>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S136184151830286X">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal><dc:title>Medical Image Analysis</dc:title></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Nguyen</foaf:surname>
+                        <foaf:givenname>D C T</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Benameur</foaf:surname>
+                        <foaf:givenname>S</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mignotte</foaf:surname>
+                        <foaf:givenname>M</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lavoie</foaf:surname>
+                        <foaf:givenname>F</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S136184151830286X</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2018</dc:date>
+        <dc:description>Citation Key: Nguyen2018</dc:description>
+        <dc:title>Superpixel and multi-atlas based fusion entropic model for the segmentation of X-ray images</dc:title>
+    </bib:Article>
+    <bib:Letter rdf:about="#item_1280">
+        <z:itemType>letter</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wibowo</foaf:surname>
+                        <foaf:givenname>H.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2018-05-22</dc:date>
+        <z:displayTitle>[Letter]</z:displayTitle>
+    </bib:Letter>
+    <bib:Article rdf:about="#item_1281">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>30</prism:volume>
+                <dc:title>Flow Measurement and Instrumentation</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tawackolian</foaf:surname>
+                        <foaf:givenname>Karsten</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Büker</foaf:surname>
+                        <foaf:givenname>Oliver</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hogendoorn</foaf:surname>
+                        <foaf:givenname>Jankees</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lederer</foaf:surname>
+                        <foaf:givenname>Thomas</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:pages>166-173</bib:pages>
+        <dc:date>2013</dc:date>
+        <dc:description>Citation Key: Tawackolian2013</dc:description>
+        <dc:title>Calibration of an ultrasonic flow meter for hot water</dc:title>
+    </bib:Article>
+    <bib:Book rdf:about="https://books.google.co.id/">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Webster</foaf:surname>
+                        <foaf:givenname>John G</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://books.google.co.id/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <prism:edition>4th</prism:edition>
+        <dc:date>2009</dc:date>
+        <dc:description>Citation Key: Webster2009</dc:description>
+        <dc:title>Medical instrumentation: application and design</dc:title>
+    </bib:Book>
+    <bib:Patent rdf:about="https://patents.google.com/patent/US5762066A/en">
+        <z:itemType>patent</z:itemType>
+        <z:inventors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Law</foaf:surname>
+                        <foaf:givenname>Wing K</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hennige</foaf:surname>
+                        <foaf:givenname>Carl</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fry</foaf:surname>
+                        <foaf:givenname>Frank</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sanghvi</foaf:surname>
+                        <foaf:givenname>Narendra T</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Miller</foaf:surname>
+                        <foaf:givenname>Fred</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kendrick</foaf:surname>
+                        <foaf:givenname>Paul</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>DeMarta</foaf:surname>
+                        <foaf:givenname>Stan</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:inventors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://patents.google.com/patent/US5762066A/en</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:description>Citation Key: Law1995a</dc:description>
+        <prism:number>US5762066A</prism:number>
+        <dc:date>1995-05-22</dc:date>
+        <dcterms:abstract>A High Intensity Focused Ultrasound system is provided for treatment of focal disease. The preferred embodiment includes an intracavity probe having two active ultrasound radiating surfaces with different focal geometries. Selectively energizing the first surface focuses therapeutic energy a first distance from the housing, energizing the second surface focuses therapeutic energy nearer the housing. Preferably, the probe includes a thin, flexible, inelastic membrane which is rigidized with pressure to allow blunt manipulation of tissue. Methods of use of the probe are also provided, particularly for treatment of diseases of the prostate.</dcterms:abstract>
+        <dc:title>Multifaceted ultrasound transducer probe system and methods for its use</dc:title>
+    </bib:Patent>
+    <bib:Book rdf:about="http://www.amacombooks.org/">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Millbower</foaf:surname>
+                        <foaf:givenname>L</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.amacombooks.org/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2003</dc:date>
+        <dc:description>Citation Key: Millbower2003</dc:description>
+        <dc:title>Show biz training: Fun and effective business training techniques from the worlds of stage, screen, and song</dc:title>
+    </bib:Book>
+    <bib:BookSection rdf:about="https://www.google.com/books?hl=en&amp;lr=&amp;id=uoD1Ly9CeRAC&amp;oi=fnd&amp;pg=PA1&amp;dq=Philosophy+and+the+science+of+subjective++well-being+The+science+of+subjective+well-being&amp;ots=CN8teNFj6h&amp;sig=Ls7fgUnTrHEgCmWxee5A2AnLVQA">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:title>Philosophy and the science of subjective well-being</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>New York, NY</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Guilford Press</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Hayborn</foaf:surname>
+                        <foaf:givenname>D M</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Eid</foaf:surname>
+                        <foaf:givenname>Michael</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Larsen</foaf:surname>
+                        <foaf:givenname>Randy J</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.google.com/books?hl=en&amp;lr=&amp;id=uoD1Ly9CeRAC&amp;oi=fnd&amp;pg=PA1&amp;dq=Philosophy+and+the+science+of+subjective++well-being+The+science+of+subjective+well-being&amp;ots=CN8teNFj6h&amp;sig=Ls7fgUnTrHEgCmWxee5A2AnLVQA</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>17-43</bib:pages>
+        <dc:date>2008</dc:date>
+        <dc:description>Citation Key: Hayborn2008</dc:description>
+        <dc:title>The science of subjective well-being</dc:title>
+    </bib:BookSection>
+    <bib:Article rdf:about="#item_1286">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>122</prism:volume>
+                <dc:title>Journal of Comparative Psychology</dc:title>
+                <dc:identifier>DOI 10.1037/0735-7036.122.4.441</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gaudio</foaf:surname>
+                        <foaf:givenname>Jennifer L</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Snowdon</foaf:surname>
+                        <foaf:givenname>Charles T</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:pages>441-444</bib:pages>
+        <dc:date>2008</dc:date>
+        <dc:description>Citation Key: Gaudio2008</dc:description>
+        <dc:title>Spatial cues more salient than color cues in cotton-top tamarins (Saguinus oedipus) reversal learning.</dc:title>
+    </bib:Article>
+    <bib:Article rdf:about="http://kairos.technorhetoric.net">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>14</prism:volume>
+                <prism:number>1</prism:number>
+                <dc:title>Kairos: A Journal of Rhetoric, Technology, and Pedagogy</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Carter</foaf:surname>
+                        <foaf:givenname>Shannon</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dunbar-Odom</foaf:surname>
+                        <foaf:givenname>Donna</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://kairos.technorhetoric.net</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>38-48</bib:pages>
+        <dc:date>2009</dc:date>
+        <dc:description>Citation Key: Carter2009</dc:description>
+        <dc:title>The Converging Literacies Center: An Integrated Model for Writing Programs.</dc:title>
+    </bib:Article>
+    <bib:Article rdf:about="http://psycnet.apa.org/journals/dev/35/1/127.html?uid=1998-03083-011">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>35</prism:volume>
+                <dc:title>Developmental Psychology</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Alibali</foaf:surname>
+                        <foaf:givenname>Martha Wagner</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>http://psycnet.apa.org/journals/dev/35/1/127.html?uid=1998-03083-011</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>127-145</bib:pages>
+        <dc:date>1999</dc:date>
+        <dc:description>Citation Key: Alibali1999</dc:description>
+        <dc:title>How children change their minds: Strategy change can be gradual or abrupt.</dc:title>
+    </bib:Article>
+    <bib:Book rdf:about="https://scholar.google.co.id/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=Race+equality+in+health+care+and+education&amp;btnG=">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Philadelphia</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Ballière Tindall</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Baxter</foaf:surname>
+                        <foaf:givenname>C</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://scholar.google.co.id/scholar?hl=en&amp;as_sdt=0%2C5&amp;q=Race+equality+in+health+care+and+education&amp;btnG=</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>1997</dc:date>
+        <dc:description>Citation Key: Baxter1997</dc:description>
+        <dc:title>Race equality in health care and education</dc:title>
+    </bib:Book>
+    <bib:Thesis rdf:about="#item_1290">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Institut Teknologi Bandung</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mayantasari</foaf:surname>
+                        <foaf:givenname>Menasita</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2011</dc:date>
+        <dc:description>Citation Key: Mayantasari2011</dc:description>
+        <z:type>Disertasi Program Doktor</z:type>
+        <dc:title>Analisis citra radiografi panoramik pada condilus mandibula untuk deteksi dini osteoporosis</dc:title>
+    </bib:Thesis>
+    <bib:Illustration rdf:about="#item_1294">
+        <z:itemType>artwork</z:itemType>
+        <z:artists>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Krivic</foaf:surname>
+                        <foaf:givenname>M.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:artists>
+        <dc:date>2018</dc:date>
+        <dc:coverage>Timbuktu</dc:coverage>
+        <dc:title>The eyes have it</dc:title>
+        <z:archive>National Geographic</z:archive>
+    </bib:Illustration>
+    <bib:Illustration rdf:about="https://www.nationalgeographic.com/photography/best-of-photo-of-the-day/2018/february/#/03_best-pod-february-18.jpg">
+        <z:itemType>artwork</z:itemType>
+        <z:artists>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Markisz</foaf:surname>
+                        <foaf:givenname>C.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:artists>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nationalgeographic.com/photography/best-of-photo-of-the-day/2018/february/#/03_best-pod-february-18.jpg</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2018</dc:date>
+        <dc:title>Blanket of fog</dc:title>
+    </bib:Illustration>
+    <bib:Letter rdf:about="#item_1302">
+        <z:itemType>email</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wibowo</foaf:surname>
+                        <foaf:givenname>H.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:date>2018-05-22</dc:date>
+    </bib:Letter>
+</rdf:RDF>
