@@ -155,7 +155,7 @@ Berikut adalah semua tipe dokumen dan field-field yang didukung oleh CSL ini, da
 
 Contoh daftar pustaka:
 
-Bentley, J. P. (1995): _Principles of measurement system_ (3rd ed.), New York, NY, John Wiley & Sons.
+Bentley, J. P. (1995): _Principles of measurement system_ (3rd ed.), John Wiley & Sons, New York, NY.
 
 ### 2. Book Section / Seksi Buku
 
@@ -190,6 +190,11 @@ Zaki, R. (2017): Validation of instrument measuring continuous variable in medic
 | # of Pages / # halaman  | Opsional  |                                 |
 | Edition / Edisi      | Opsional  | 4th                             |
 | Volume     | Opsional  |                                 |
+
+
+Contoh daftar pustaka:
+
+Webster, J. G. (2009): _Medical instrumentation: application and design_ (4th ed.), diperoleh melalui situs internet: https://books.google.co.id/.
 
 ### 4. Journal Article / Artikel Jurnal
 
@@ -266,7 +271,7 @@ Agarwal, T. (2015): Ultrasonic detection – basics & application, diperoleh mel
 
 Contoh daftar pustaka:
 
-Wynne, B. M. (2003): _U.S. Patent No. 6,606,963_, Washington, DC, U.S. Patent and Trademark Office. 
+Wynne, B. M. (2003): _U.S. Patent No. 6,606,963_, U.S. Patent and Trademark Office, Washington, DC. 
 
 ### 7. Thesis (including Dissertation)
 
@@ -310,8 +315,7 @@ Mayantasari, M. (2011): _Analisis citra radiografi panoramik pada condilus mandi
 
 Contoh daftar pustaka:
 
-* Ij, P. (10 Juni 2010): Demokrasi di era otonomi daerah, _Kompas_, hal. 6.
-* Pengelolaan diusulkan satu lembaga. (16 Oktober 2015): _Kompas_, hal. 14.
+American Petroleum Institute (2001): _Recommended practice for analysis, design, installation, and testing of basic surface safety systems for offshore production platforms_ (API RP 14C), API Publishing Service, Washington.
 
 ### 10. Magazine Article (artikel majalah)
 
@@ -345,8 +349,8 @@ Baker, A. A., Sosro, K., dan Suditomo, B. (Mei 1998): Pembakaran hutan di Kalima
 
 Contoh daftar pustaka:
 
-* Ij, P. (10 Juni 2010): Demokrasi di era otonomi daerah, _Kompas_, hal. 6.
-* Pengelolaan diusulkan satu lembaga. (16 Oktober 2015): _Kompas_, hal. 14.
+* Ij, P. (10 Juni 2010): Demokrasi di era otonomi daerah, _Kompas_, hlm. 6.
+* Pengelolaan diusulkan satu lembaga. (16 Oktober 2015): _Kompas_, hlm. 14.
 
 ### 12. Radio Broadcast, TV Broadcast / Siaran TV, Siaran Radio
 
@@ -363,20 +367,22 @@ Contoh daftar pustaka:
 
 Contoh daftar pustaka:
 
-Foster, J. (Sutradara). (2016): Arkangel, _dalam_ Black Mirror, United Kingdom, Netflix.
+Foster, J. (Sutradara). (2016): Arkangel _dalam_ Black Mirror, Netflix, United Kingdom.
 
 CSL ini belum mendukung _field_ Scriptwriter (penulis) dan Producer (produser). Bila Anda membutuhkannya, mohon menuliskannya secara manual di daftar pustaka.
 
-### 13. Internet Movie Clip (item type: TV Broadcast / Siaran TV)
+### 13. Klip Video Internet (item type: Film)
 
 | Field       | Diperlukan? | Contoh                          |
 |-------------|-------------|---------------------------------|
 | Title / Judul       | Diperlukan  | Matchalatte                     |
 | Director(s) / Sutradara | Diperlukan  | Maychaelson, R.                 |
-| Program Title / Judul Program | Opsional    |                               |
-| Episode Number / Nomor Episode | Opsional    |                            |
 | Date / Tanggal  | Diperlukan  | 2018                            |
 | URL         | Diperlukan  | https://www.youtube.com/watch?v=Mb8aeRuAJZw |
+
+Example bibliography:
+
+Maychaelson, R. (Sutradara).  (2018): _Matchalatte_, diperoleh melalui situs internet: https://www.youtube.com/watch?v=Mb8aeRuAJZw.
 
 CSL ini belum mendukung _field_ Scriptwriter (penulis) dan Producer (produser). Bila Anda membutuhkannya, mohon menuliskannya secara manual di daftar pustaka.
 
@@ -386,13 +392,13 @@ CSL ini belum mendukung _field_ Scriptwriter (penulis) dan Producer (produser). 
 |-------------|-------------|---------------------------------|
 | Title / Judul       | Diperlukan  | Kartini                         |
 | Director(s) / Sutradara | Diperlukan  | Bramantyo, Hanung               |
-| Distributor | Diperlukan  | Indonesia, Legacy Picture dan Screenplay Films |
+| Distributor | Diperlukan  | Legacy Picture dan Screenplay Films, Indonesia |
 | Date / Tanggal  | Diperlukan  | 2017                            |
 | URL         | Diperlukan  | https://www.youtube.com/watch?v=Mb8aeRuAJZw |
 
 Contoh daftar pustaka:
 
-Bramantyo, H. (Sutradara). (2017): _Kartini_, Indonesia, Legacy Picture dan Screenplay Films.
+Bramantyo, H. (Sutradara). (2017): _Kartini_, Legacy Picture dan Screenplay Films, Indonesia.
 
 CSL ini belum mendukung _field_ Scriptwriter (penulis) dan Producer (produser). Bila Anda membutuhkannya, mohon menuliskannya secara manual di daftar pustaka.
 
@@ -403,12 +409,12 @@ CSL ini belum mendukung _field_ Scriptwriter (penulis) dan Producer (produser). 
 | Title / Judul       | Diperlukan  | The eyes have it                |
 | Author(s) / Penulis   | Diperlukan  | Krivic, M.                      |
 | Date / Tanggal  | Diperlukan  | 2018                            |
-| Archive / Arsip | Diperlukan  | Timbuktu, National Geographic   |
+| Archive / Arsip | Diperlukan  | National Geographic, Timbuktu   |
 | URL         | Opsional    |                                 |
 
 Contoh daftar pustaka:
 
-Krivic, M. (2018): _The eyes have it_, Timbuktu, National Geographic.
+Krivic, M. (2018): _The eyes have it_, National Geographic, Timbuktu.
 
 
 ### 16. Letter / E-mail (komunikasi pribadi)

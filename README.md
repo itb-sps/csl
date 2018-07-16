@@ -155,7 +155,7 @@ Below you will find all document types and fields supported by this CSL, and how
 
 Example bibliography:
 
-Bentley, J. P. (1995): _Principles of measurement system_ (3rd ed.), New York, NY, John Wiley & Sons.
+Bentley, J. P. (1995): _Principles of measurement system_ (3rd ed.), John Wiley & Sons, New York, NY.
 
 ### 2. Book Section
 
@@ -190,6 +190,10 @@ Zaki, R. (2017): Validation of instrument measuring continuous variable in medic
 | # of Pages | Optional  |                                 |
 | Edition    | Optional  | 4th                             |
 | Volume     | Optional  |                                 |
+
+Example bibliography:
+
+Webster, J. G. (2009): _Medical instrumentation: application and design_ (4th ed.), diperoleh melalui situs internet: https://books.google.co.id/.
 
 ### 4. Journal Article
 
@@ -266,7 +270,7 @@ Agarwal, T. (2015): Ultrasonic detection – basics & application, diperoleh mel
 
 Example bibliography:
 
-Wynne, B. M. (2003): _U.S. Patent No. 6,606,963_, Washington, DC, U.S. Patent and Trademark Office. 
+Wynne, B. M. (2003): _U.S. Patent No. 6,606,963_, U.S. Patent and Trademark Office, Washington, DC.
 
 ### 7. Thesis (including Dissertation)
 
@@ -310,8 +314,7 @@ Mayantasari, M. (2011): _Analisis citra radiografi panoramik pada condilus mandi
 
 Example bibliography:
 
-* Ij, P. (10 Juni 2010): Demokrasi di era otonomi daerah, _Kompas_, hal. 6.
-* Pengelolaan diusulkan satu lembaga. (16 Oktober 2015): _Kompas_, hal. 14.
+American Petroleum Institute (2001): _Recommended practice for analysis, design, installation, and testing of basic surface safety systems for offshore production platforms_ (API RP 14C), API Publishing Service, Washington.
 
 ### 10. Magazine Article
 
@@ -363,20 +366,22 @@ Example bibliography:
 
 Example bibliography:
 
-Foster, J. (Sutradara). (2016): Arkangel, _dalam_ Black Mirror, United Kingdom, Netflix.
+Foster, J. (Sutradara). (2016): Arkangel _dalam_ Black Mirror, Netflix, United Kingdom.
 
 This CSL does not yet support Scriptwriter and Producer fields. If you need to add them, please type manually in the bibliography.
 
-### 13. Internet Movie Clip (item type: TV Broadcast)
+### 13. Internet Movie Clip (item type: Film)
 
 | Field       | Required?   | Example                         |
 |-------------|-------------|---------------------------------|
 | Title       | Required    | Matchalatte                     |
 | Director(s) | Required    | Maychaelson, R.                 |
-| Program Title | Optional    |                               |
-| Episode Number | Optional    |                              |
 | Date        | Required    | 2018                            |
 | URL         | Required    | https://www.youtube.com/watch?v=Mb8aeRuAJZw |
+
+Example bibliography:
+
+Maychaelson, R. (Sutradara).  (2018): _Matchalatte_, diperoleh melalui situs internet: https://www.youtube.com/watch?v=Mb8aeRuAJZw.
 
 This CSL does not yet support Scriptwriter and Producer fields. If you need to add them, please type manually in the bibliography.
 
@@ -386,13 +391,13 @@ This CSL does not yet support Scriptwriter and Producer fields. If you need to a
 |-------------|-------------|---------------------------------|
 | Title       | Required    | Kartini                         |
 | Director(s) | Required    | Bramantyo, Hanung               |
-| Distributor | Required    | Indonesia, Legacy Picture dan Screenplay Films |
+| Distributor | Required    | Legacy Picture dan Screenplay Films, Indonesia |
 | Date        | Required    | 2017                            |
 | URL         | Required    | https://www.youtube.com/watch?v=Mb8aeRuAJZw |
 
 Example bibliography:
 
-Bramantyo, H. (Sutradara). (2017): _Kartini_, Indonesia, Legacy Picture dan Screenplay Films.
+Bramantyo, H. (Sutradara). (2017): _Kartini_, Legacy Picture dan Screenplay Films, Indonesia.
 
 This CSL does not yet support Scriptwriter and Producer fields. If you need to add them, please type manually in the bibliography.
 
@@ -403,12 +408,12 @@ This CSL does not yet support Scriptwriter and Producer fields. If you need to a
 | Title       | Required    | The eyes have it                |
 | Author(s)   | Required    | Krivic, M.                      |
 | Date        | Required    | 2018                            |
-| Archive     | Required    | Timbuktu, National Geographic   |
+| Archive     | Required    | National Geographic, Timbuktu   |
 | URL         | Optional    |                                 |
 
 Example bibliography:
 
-Krivic, M. (2018): _The eyes have it_, Timbuktu, National Geographic.
+Krivic, M. (2018): _The eyes have it_, National Geographic, Timbuktu.
 
 
 ### 16. Letter / E-mail (personal communication)

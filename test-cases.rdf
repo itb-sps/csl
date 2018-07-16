@@ -6,8 +6,8 @@
  xmlns:dc="http://purl.org/dc/elements/1.1/"
  xmlns:bib="http://purl.org/net/biblio#"
  xmlns:foaf="http://xmlns.com/foaf/0.1/"
- xmlns:link="http://purl.org/rss/1.0/modules/link/"
- xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/">
     <bib:Article rdf:about="#item_1244">
         <z:itemType>magazineArticle</z:itemType>
         <dcterms:isPartOf>
@@ -43,6 +43,48 @@
         <dc:description>Citation Key: Baker1998</dc:description>
         <dc:title>Pembakaran hutan di Kalimantan</dc:title>
     </bib:Article>
+    <rdf:Description rdf:about="#item_1250">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Proceedings of the International Congress on Current Aspects of Quantum Chemistry</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>London, U.K.</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Prentice Hall</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Stark</foaf:surname>
+                        <foaf:givenname>H.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Carbo</foaf:surname>
+                        <foaf:givenname>R.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:pages>24-36</bib:pages>
+        <dc:date>1998</dc:date>
+        <dc:description>Citation Key: stark1998dynamics</dc:description>
+        <dc:title>The dynamics of surface adsorption</dc:title>
+    </rdf:Description>
     <bib:Article rdf:about="http://dx.doi.org/10.1016/j.optlaseng.2009.03.008">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf rdf:resource="urn:issn:01438166"/>
@@ -104,17 +146,24 @@ ISBN: 0143-8166</dc:description>
         <dc:identifier>ISSN 01438166</dc:identifier>
         <dc:identifier>DOI 10.1016/j.optlaseng.2009.03.008</dc:identifier>
     </bib:Journal>
-    <bib:Article rdf:about="#item_1256">
-        <z:itemType>journalArticle</z:itemType>
+    <bib:BookSection rdf:about="urn:isbn:978-953-307-061-2">
+        <z:itemType>bookSection</z:itemType>
         <dcterms:isPartOf>
-            <bib:Journal>
-                <prism:volume>48</prism:volume>
-                <prism:number>2</prism:number>
+            <bib:Book>
+                <dc:identifier>ISBN 978-953-307-061-2</dc:identifier>
                 <dc:title>Advances in Measurement Systems</dc:title>
-                <dc:identifier>ISSN 01438166</dc:identifier>
-                <dc:identifier>DOI 10.1016/j.optlaseng.2009.03.008</dc:identifier>
-            </bib:Journal>
+            </bib:Book>
         </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>London, U.K.</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>IntechOpen</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -125,6 +174,16 @@ ISBN: 0143-8166</dc:description>
                 </rdf:li>
             </rdf:Seq>
         </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sharma</foaf:surname>
+                        <foaf:givenname>Milind</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
         <link:link rdf:resource="#item_1257"/>
         <dc:subject>
            <z:AutomaticTag><rdf:value>3D scanning</rdf:value></z:AutomaticTag>
@@ -154,12 +213,12 @@ ISBN: 0143-8166</dc:description>
            <z:AutomaticTag><rdf:value>Real time</rdf:value></z:AutomaticTag>
         </dc:subject>
         <bib:pages>29-50</bib:pages>
-        <dc:date>2010</dc:date>
+        <dc:date>2010-04-01</dc:date>
         <dc:description>Citation Key: Zhang2010a
 ISBN: 978-953-307-061-2</dc:description>
         <dcterms:abstract>Over the past few years, we have been developing techniques for high-speed 3D shape measurement using digital fringe projection and phase-shifting techniques: various algorithms have been developed to improve the phase computation speed, parallel programming has been employed to further increase the processing speed, and advanced hardware technologies have been adopted to boost the speed of coordinate calculations and 3D geometry rendering. We have successfully achieved simultaneous 3D absolute shape acquisition, reconstruction, and display at a speed of 30 frames/s with 300 K points per frame. This paper presents the principles of the real-time 3D shape measurement techniques that we developed, summarizes the most recent progresses that have been made in this field, and discusses the challenges for advancing this technology further.</dcterms:abstract>
-        <dc:title>high-resolution, high-speed 3D Dynamically Deformable Shape Measurement Using Digital Fringe Projection Techniques</dc:title>
-    </bib:Article>
+        <dc:title>High-resolution, high-speed 3D dynamically deformable shape measurement using digital fringe projection techniques</dc:title>
+    </bib:BookSection>
     <z:Attachment rdf:about="#item_1257">
         <z:itemType>attachment</z:itemType>
         <dc:identifier>
@@ -563,7 +622,7 @@ ISBN: 9786020836287</dc:description>
         <z:itemType>film</z:itemType>
         <dc:publisher>
             <foaf:Organization>
-                <foaf:name>Indonesia, Legacy Picture dan Screenplay Films</foaf:name>
+                <foaf:name>Legacy Picture dan Screenplay Films, Indonesia</foaf:name>
             </foaf:Organization>
         </dc:publisher>
         <z:directors>
@@ -606,8 +665,8 @@ ISBN: 9786020836287</dc:description>
 Citation Key: Bramantyo2017</dc:description>
         <dc:title>Kartini</dc:title>
     </bib:MotionPicture>
-    <bib:Recording rdf:about="https://www.youtube.com/watch?v=Mb8aeRuAJZw">
-        <z:itemType>tvBroadcast</z:itemType>
+    <bib:MotionPicture rdf:about="https://www.youtube.com/watch?v=Mb8aeRuAJZw">
+        <z:itemType>film</z:itemType>
         <z:directors>
             <rdf:Seq>
                 <rdf:li>
@@ -626,7 +685,7 @@ Citation Key: Bramantyo2017</dc:description>
         <dc:date>2018</dc:date>
         <dc:description>Citation Key: Maychaelson2018</dc:description>
         <dc:title>Matchalatte</dc:title>
-    </bib:Recording>
+    </bib:MotionPicture>
     <bib:Patent rdf:about="#item_1273">
         <z:itemType>patent</z:itemType>
         <z:inventors>
