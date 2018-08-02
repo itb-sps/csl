@@ -20,11 +20,11 @@ CSL adalah format terbuka dan didukung secara luas, sehingga dapat digunakan den
 
 4. Daftar atau login ke akun Zotero sehingga Anda dapat menyimpan dan menyinkronkan referensi dengan mudah.
 
-6.Pastikan Anda dapat melihat Zotero tab di Microsoft Word.
+5. Pastikan Anda dapat melihat Zotero tab di Microsoft Word.
 
    ![Zotero MS Word Plugin](zotero-ms-word-plugin-windows.jpg)
 
-7. Pasang style **Institut Teknologi Bandung - Sekolah Pascasarjana**, dengan cara:
+6. Pasang style **Institut Teknologi Bandung - Sekolah Pascasarjana**, dengan cara:
 
    a. Di Zotero, klik **Edit > Preferences...**
 
@@ -40,7 +40,7 @@ CSL adalah format terbuka dan didukung secara luas, sehingga dapat digunakan den
 
    e. Klik **OK**.
 
-8. Selamat! Anda sekarang siap untuk mengumpulkan dokumen, menambahkan sitasi, dan menambahkan daftar pustaka di karya ilmiah Anda.
+7. Selamat! Anda sekarang siap untuk mengumpulkan dokumen, menambahkan sitasi, dan menambahkan daftar pustaka di karya ilmiah Anda.
 
 
 ## Mengumpulkan Dokumen

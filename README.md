@@ -20,11 +20,11 @@ As CSL is an open and widely supported format, it is also usable in other softwa
 
 4. Sign-up or login to your Zotero account so you can save and sync all your references easily.
 
-6. Ensure you can see Zotero in Microsoft Word's Zotero ribbon tab.
+5. Ensure you can see Zotero in Microsoft Word's Zotero ribbon tab.
 
    ![Zotero MS Word Plugin](zotero-ms-word-plugin-windows.jpg)
 
-7. Install **Institut Teknologi Bandung - Sekolah Pascasarjana** style, as follows:
+6. Install **Institut Teknologi Bandung - Sekolah Pascasarjana** style, as follows:
 
    a. In Zotero, click **Edit > Preferences...**
 
@@ -40,7 +40,7 @@ As CSL is an open and widely supported format, it is also usable in other softwa
 
    e. Click **OK**.
 
-8. Congratulations! Now you are ready to collect documents, insert citations, and insert a bibliography in your documents.
+7. Congratulations! Now you are ready to collect documents, insert citations, and insert a bibliography in your documents.
 
 
 ## Collect Documents
